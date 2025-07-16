@@ -1,0 +1,464 @@
+Loaded 27304 rows, 47 columns in 1.01 seconds.
+Columns: ['id', 'url', 'source', 'retweetCount', 'replyCount', 'likeCount', 'quoteCount', 'viewCount', 'createdAt', 'lang', 'bookmarkCount', 'isReply', 'isRetweet', 'isQuote', 'isConversationControlled', 'quoteId', 'inReplyToId', 'month_year', 'illuminating_scored_message', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+===== OVERALL SUMMARY =====
+Column: id
+  count: 27304
+  non_null: 27304
+  unique: 27304
+  most_frequent: cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d
+  most_frequent_count: 1
+
+Column: url
+  count: 27304
+  non_null: 27304
+  unique: 27304
+  most_frequent: f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937
+  most_frequent_count: 1
+
+Column: source
+  count: 27304
+  non_null: 27304
+  unique: 14
+  most_frequent: Twitter Web App
+  most_frequent_count: 14930
+
+Column: retweetCount
+  count: 27304
+  non_null: 27304
+  mean: 1322.0551933782597
+  min: 0
+  max: 144615
+  std: 3405.0042401645187
+
+Column: replyCount
+  count: 27304
+  non_null: 27304
+  mean: 1063.7850131848813
+  min: 0
+  max: 121270
+  std: 3174.981654139348
+
+Column: likeCount
+  count: 27304
+  non_null: 27304
+  mean: 6913.69282888954
+  min: 0
+  max: 915221
+  std: 21590.307989209447
+
+Column: quoteCount
+  count: 27304
+  non_null: 27304
+  mean: 128.08156314093173
+  min: 0
+  max: 123320
+  std: 1131.5334680019284
+
+Column: viewCount
+  count: 27304
+  non_null: 27304
+  mean: 507084.7318341635
+  min: 5
+  max: 333502775
+  std: 3212173.986296655
+
+Column: createdAt
+  count: 27304
+  non_null: 27304
+  unique: 27014
+  most_frequent: 2023-10-06 04:55:21
+  most_frequent_count: 4
+
+Column: lang
+  count: 27304
+  non_null: 27304
+  unique: 12
+  most_frequent: en
+  most_frequent_count: 27281
+
+Column: bookmarkCount
+  count: 27304
+  non_null: 27304
+  mean: 136.21352182830356
+  min: 0
+  max: 42693
+  std: 712.5802944831519
+
+Column: isReply
+  count: 27304
+  non_null: 27304
+  mean: 0.1235716378552593
+  min: False
+  max: True
+  std: 0.3290982449542025
+
+Column: isRetweet
+  count: 27304
+  non_null: 27304
+  mean: 0.0
+  min: False
+  max: False
+  std: 0.0
+
+Column: isQuote
+  count: 27304
+  non_null: 27304
+  mean: 0.11866393202461178
+  min: False
+  max: True
+  std: 0.32339856788807175
+
+Column: isConversationControlled
+  count: 27304
+  non_null: 27304
+  mean: 0.0002929973630237328
+  min: False
+  max: True
+  std: 0.017114971333590297
+
+Column: quoteId
+  count: 27304
+  non_null: 3287
+  mean: 1.7642983966589504e+18
+  min: 7.912639390153769e+17
+  max: 1.8535761683325583e+18
+  std: 6.894686649329474e+16
+
+Column: inReplyToId
+  count: 27304
+  non_null: 3345
+  mean: 1.7582857247419999e+18
+  min: 1.2400673584227e+18
+  max: 1.853530653414859e+18
+  std: 4.3611965701560696e+16
+
+Column: month_year
+  count: 27304
+  non_null: 27304
+  unique: 15
+  most_frequent: 2024-10
+  most_frequent_count: 3586
+
+Column: illuminating_scored_message
+  count: 27304
+  non_null: 27304
+  unique: 27136
+  most_frequent: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd
+  most_frequent_count: 21
+
+Column: election_integrity_Truth_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.03714373511561804
+  min: 0.0
+  max: 1.0
+  std: 0.18911756093783608
+
+Column: advocacy_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.5636859491434278
+  min: 0.0
+  max: 1.0
+  std: 0.49593703963228036
+
+Column: issue_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.507682261657832
+  min: 0.0
+  max: 1.0
+  std: 0.4999505813425477
+
+Column: attack_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.3075977567795959
+  min: 0.0
+  max: 1.0
+  std: 0.46150791760416376
+
+Column: image_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.22643466236460014
+  min: 0.0
+  max: 1.0
+  std: 0.4185316409839206
+
+Column: cta_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.10966428516555274
+  min: 0.0
+  max: 1.0
+  std: 0.31247684757947275
+
+Column: engagement_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.0669124990397173
+  min: 0.0
+  max: 1.0
+  std: 0.24987519849406606
+
+Column: fundraising_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.007874318199277867
+  min: 0.0
+  max: 1.0
+  std: 0.08838898916084756
+
+Column: voting_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.016785741722363065
+  min: 0.0
+  max: 1.0
+  std: 0.1284702866854094
+
+Column: covid_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.0076054390412537455
+  min: 0.0
+  max: 1.0
+  std: 0.08687857194055204
+
+Column: economy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.16021356687408772
+  min: 0.0
+  max: 1.0
+  std: 0.3668110523395825
+
+Column: education_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.01843742797879696
+  min: 0.0
+  max: 1.0
+  std: 0.13452949268938846
+
+Column: environment_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.028539602058846123
+  min: 0.0
+  max: 1.0
+  std: 0.16651173583618067
+
+Column: foreign_policy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.042252439118076364
+  min: 0.0
+  max: 1.0
+  std: 0.20116839951473553
+
+Column: governance_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.022969962356917877
+  min: 0.0
+  max: 1.0
+  std: 0.1498105645777889
+
+Column: health_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.05565798571099332
+  min: 0.0
+  max: 1.0
+  std: 0.2292644615290389
+
+Column: immigration_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.06529922409157256
+  min: 0.0
+  max: 1.0
+  std: 0.2470578473918854
+
+Column: lgbtq_issues_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.0030729046631328264
+  min: 0.0
+  max: 1.0
+  std: 0.05534961243011968
+
+Column: military_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.010985634170699855
+  min: 0.0
+  max: 1.0
+  std: 0.10423707289416255
+
+Column: race_and_ethnicity_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.015402934623953292
+  min: 0.0
+  max: 1.0
+  std: 0.12315139782021392
+
+Column: safety_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.03760467081508796
+  min: 0.0
+  max: 1.0
+  std: 0.19024181908327997
+
+Column: social_and_cultural_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.05197050011523392
+  min: 0.0
+  max: 1.0
+  std: 0.22197175454151633
+
+Column: technology_and_privacy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.0020357993393254974
+  min: 0.0
+  max: 1.0
+  std: 0.04507474794044172
+
+Column: womens_issue_topic_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.02331566413152032
+  min: 0.0
+  max: 1.0
+  std: 0.15090698683369944
+
+Column: incivility_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.17857417223630637
+  min: 0.0
+  max: 1.0
+  std: 0.3830027047455516
+
+Column: scam_illuminating
+  count: 27304
+  non_null: 26034
+  mean: 0.012368441269109626
+  min: 0.0
+  max: 1.0
+  std: 0.1105257081389594
+
+Column: freefair_illuminating
+  count: 27304
+  non_null: 27304
+  mean: 0.0014283621447406974
+  min: 0
+  max: 1
+  std: 0.037767369074478356
+
+Column: fraud_illuminating
+  count: 27304
+  non_null: 27304
+  mean: 0.0027468502783474947
+  min: 0
+  max: 1
+  std: 0.052339329587953634
+
+
+===== GROUPED BY source =====
+Number of groups: 14
+
+--- source: Twitter for iPhone ---
+Records: 8494
+  retweetCount: {'count': 8494, 'non_null': 8494, 'mean': 612.6239698610784, 'min': 0, 'max': 67113, 'std': 2155.926075554172}
+  replyCount: {'count': 8494, 'non_null': 8494, 'mean': 289.7919708029197, 'min': 0, 'max': 30215, 'std': 1035.9653037675528}
+  likeCount: {'count': 8494, 'non_null': 8494, 'mean': 3741.9595008241113, 'min': 0, 'max': 588065, 'std': 15956.714086417069}
+  quoteCount: {'count': 8494, 'non_null': 8494, 'mean': 43.775370850011775, 'min': 0, 'max': 6552, 'std': 190.6937996104969}
+  viewCount: {'count': 8494, 'non_null': 8494, 'mean': 245622.1245585119, 'min': 9, 'max': 31294362, 'std': 954516.4857657759}
+  bookmarkCount: {'count': 8494, 'non_null': 8494, 'mean': 69.80091829526725, 'min': 0, 'max': 22901, 'std': 402.95618009236506}
+  source: {'count': 8494, 'non_null': 8494, 'unique': 1, 'most_frequent': 'Twitter for iPhone', 'most_frequent_count': 8494}
+  lang: {'count': 8494, 'non_null': 8494, 'unique': 9, 'most_frequent': 'en', 'most_frequent_count': 8482}
+  month_year: {'count': 8494, 'non_null': 8494, 'unique': 15, 'most_frequent': '2023-11', 'most_frequent_count': 1347}
+  isReply: {'count': 8494, 'non_null': 8494, 'mean': 0.21273840357899693, 'min': False, 'max': True, 'std': 0.40926824343229484}
+  isRetweet: {'count': 8494, 'non_null': 8494, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isQuote: {'count': 8494, 'non_null': 8494, 'mean': 0.21532846715328466, 'min': False, 'max': True, 'std': 0.4110742179540171}
+  illuminating_scored_message: {'count': 8494, 'non_null': 8494, 'unique': 8443, 'most_frequent': '1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04', 'most_frequent_count': 11}
+
+--- source: Twitter Web App ---
+Records: 14930
+  retweetCount: {'count': 14930, 'non_null': 14930, 'mean': 1317.1093101138647, 'min': 0, 'max': 144615, 'std': 3571.547206805356}
+  replyCount: {'count': 14930, 'non_null': 14930, 'mean': 719.2042196918956, 'min': 0, 'max': 121270, 'std': 2689.13669736727}
+  likeCount: {'count': 14930, 'non_null': 14930, 'mean': 6669.748760884126, 'min': 0, 'max': 915221, 'std': 22475.181622371318}
+  quoteCount: {'count': 14930, 'non_null': 14930, 'mean': 120.04501004688547, 'min': 0, 'max': 123320, 'std': 1464.5674478656815}
+  viewCount: {'count': 14930, 'non_null': 14930, 'mean': 474031.2296048225, 'min': 5, 'max': 333502775, 'std': 3966175.637972646}
+  bookmarkCount: {'count': 14930, 'non_null': 14930, 'mean': 154.30850636302745, 'min': 0, 'max': 42693, 'std': 843.4152339250891}
+  source: {'count': 14930, 'non_null': 14930, 'unique': 1, 'most_frequent': 'Twitter Web App', 'most_frequent_count': 14930}
+  lang: {'count': 14930, 'non_null': 14930, 'unique': 8, 'most_frequent': 'en', 'most_frequent_count': 14920}
+  month_year: {'count': 14930, 'non_null': 14930, 'unique': 15, 'most_frequent': '2024-10', 'most_frequent_count': 2930}
+  isReply: {'count': 14930, 'non_null': 14930, 'mean': 0.10026791694574681, 'min': False, 'max': True, 'std': 0.30036695001984676}
+  isRetweet: {'count': 14930, 'non_null': 14930, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isQuote: {'count': 14930, 'non_null': 14930, 'mean': 0.09176155391828533, 'min': False, 'max': True, 'std': 0.28869872472198793}
+  illuminating_scored_message: {'count': 14930, 'non_null': 14930, 'unique': 14859, 'most_frequent': '36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd', 'most_frequent_count': 20}
+
+--- source: Sprout Social ---
+Records: 2933
+  retweetCount: {'count': 2933, 'non_null': 2933, 'mean': 3524.793385612001, 'min': 13, 'max': 80331, 'std': 4584.684286002297}
+  replyCount: {'count': 2933, 'non_null': 2933, 'mean': 5186.272076372315, 'min': 12, 'max': 60598, 'std': 5804.889264233615}
+  likeCount: {'count': 2933, 'non_null': 2933, 'mean': 18173.406409819298, 'min': 60, 'max': 423537, 'std': 28810.234274426264}
+  quoteCount: {'count': 2933, 'non_null': 2933, 'mean': 426.1200136379134, 'min': 0, 'max': 17200, 'std': 855.0239774198686}
+  viewCount: {'count': 2933, 'non_null': 2933, 'mean': 1501097.3088987386, 'min': 2647, 'max': 76522204, 'std': 3432961.996058155}
+  bookmarkCount: {'count': 2933, 'non_null': 2933, 'mean': 230.79611319468123, 'min': 0, 'max': 13271, 'std': 581.8452764041632}
+  source: {'count': 2933, 'non_null': 2933, 'unique': 1, 'most_frequent': 'Sprout Social', 'most_frequent_count': 2933}
+  lang: {'count': 2933, 'non_null': 2933, 'unique': 1, 'most_frequent': 'en', 'most_frequent_count': 2933}
+  month_year: {'count': 2933, 'non_null': 2933, 'unique': 15, 'most_frequent': '2024-10', 'most_frequent_count': 316}
+  isReply: {'count': 2933, 'non_null': 2933, 'mean': 0.00034094783498124785, 'min': False, 'max': True, 'std': 0.018464772811525407}
+  isRetweet: {'count': 2933, 'non_null': 2933, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isQuote: {'count': 2933, 'non_null': 2933, 'mean': 0.009887487214456188, 'min': False, 'max': True, 'std': 0.09895990973580365}
+  illuminating_scored_message: {'count': 2933, 'non_null': 2933, 'unique': 2930, 'most_frequent': 'cf14adc6100946c861e8480495e17c3b4c4d7cec48709709c323cd733bcf1a1b', 'most_frequent_count': 2}
+
+--- source: Twitter Media Studio ---
+Records: 499
+  retweetCount: {'count': 499, 'non_null': 499, 'mean': 1586.2124248496993, 'min': 8, 'max': 32636, 'std': 3155.3648015863864}
+  replyCount: {'count': 499, 'non_null': 499, 'mean': 1162.2945891783568, 'min': 2, 'max': 18819, 'std': 2000.0256201649133}
+  likeCount: {'count': 499, 'non_null': 499, 'mean': 7397.89378757515, 'min': 52, 'max': 119065, 'std': 13968.830112992428}
+  quoteCount: {'count': 499, 'non_null': 499, 'mean': 142.98797595190382, 'min': 0, 'max': 6695, 'std': 515.3151683646604}
+  viewCount: {'count': 499, 'non_null': 499, 'mean': 472523.4609218437, 'min': 8313, 'max': 18876894, 'std': 1244065.9397001527}
+  bookmarkCount: {'count': 499, 'non_null': 499, 'mean': 242.73947895791582, 'min': 0, 'max': 13269, 'std': 1076.6355580063216}
+  source: {'count': 499, 'non_null': 499, 'unique': 1, 'most_frequent': 'Twitter Media Studio', 'most_frequent_count': 499}
+  lang: {'count': 499, 'non_null': 499, 'unique': 2, 'most_frequent': 'en', 'most_frequent_count': 498}
+  month_year: {'count': 499, 'non_null': 499, 'unique': 15, 'most_frequent': '2023-09', 'most_frequent_count': 66}
+  isReply: {'count': 499, 'non_null': 499, 'mean': 0.004008016032064128, 'min': False, 'max': True, 'std': 0.06324529869563543}
+  isRetweet: {'count': 499, 'non_null': 499, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isQuote: {'count': 499, 'non_null': 499, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  illuminating_scored_message: {'count': 499, 'non_null': 499, 'unique': 499, 'most_frequent': 'fda5f40b2324a0b0b9844adb23edd6866656df8f9c352357d005878dc8a51920', 'most_frequent_count': 1}
+
+--- source: Periscope ---
+Records: 103
+  retweetCount: {'count': 103, 'non_null': 103, 'mean': 596.7281553398059, 'min': 23, 'max': 29648, 'std': 2949.7363929885455}
+  replyCount: {'count': 103, 'non_null': 103, 'mean': 402.05825242718447, 'min': 3, 'max': 14559, 'std': 1525.1239089824332}
+  likeCount: {'count': 103, 'non_null': 103, 'mean': 2483.359223300971, 'min': 96, 'max': 127603, 'std': 12738.9261235576}
+  quoteCount: {'count': 103, 'non_null': 103, 'mean': 78.51456310679612, 'min': 0, 'max': 4891, 'std': 484.4979383205021}
+  viewCount: {'count': 103, 'non_null': 103, 'mean': 303090.4368932039, 'min': 9518, 'max': 14689732, 'std': 1494268.6379843687}
+  bookmarkCount: {'count': 103, 'non_null': 103, 'mean': 185.62135922330097, 'min': 0, 'max': 14567, 'std': 1434.399991500886}
+  source: {'count': 103, 'non_null': 103, 'unique': 1, 'most_frequent': 'Periscope', 'most_frequent_count': 103}
+  lang: {'count': 103, 'non_null': 103, 'unique': 1, 'most_frequent': 'en', 'most_frequent_count': 103}
+  month_year: {'count': 103, 'non_null': 103, 'unique': 14, 'most_frequent': '2023-12', 'most_frequent_count': 23}
+  isReply: {'count': 103, 'non_null': 103, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isRetweet: {'count': 103, 'non_null': 103, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  isQuote: {'count': 103, 'non_null': 103, 'mean': 0.0, 'min': False, 'max': False, 'std': 0.0}
+  illuminating_scored_message: {'count': 103, 'non_null': 103, 'unique': 103, 'most_frequent': '8802a0ed591ab28aaae38436b1ce398fef2bb47fbd596100f1fc1e686db57dc9', 'most_frequent_count': 1}
+... and 9 more groups
+
+Groupby analysis completed in 0.22 seconds.
+
+===== TIMING =====
+Data loading: 1.01 seconds
+Groupby: 0.22 seconds
+Total execution time: 2.14 seconds

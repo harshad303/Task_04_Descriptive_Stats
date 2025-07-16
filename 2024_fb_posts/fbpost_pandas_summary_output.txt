@@ -1,0 +1,136 @@
+Loading dataset...
+Dataset loaded in 0.10 seconds. Shape: (19009, 56)
+Columns: ['Facebook_Id', 'post_id', 'Page Category', 'Page Admin Top Country', 'Post Created', 'Post Created Date', 'Post Created Time', 'Type', 'Total Interactions', 'Likes', 'Comments', 'Shares', 'Love', 'Wow', 'Haha', 'Sad', 'Angry', 'Care', 'Video Share Status', 'Is Video Owner?', 'Post Views', 'Total Views', 'Total Views For All Crossposts', 'Video Length', 'Sponsor Id', 'Sponsor Name', 'Sponsor Category', 'Overperforming Score', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+JSON unpacking completed in 0.00 seconds. New shape: (19009, 56)
+
+========== OVERALL DATASET SUMMARY ==========
+Total rows: 19009
+Total columns: 56
+Columns: ['Angry', 'Care', 'Comments', 'Facebook_Id', 'Haha', 'Is Video Owner?', 'Likes', 'Love', 'Overperforming Score', 'Page Admin Top Country', 'Page Category', 'Post Created', 'Post Created Date', 'Post Created Time', 'Post Views', 'Sad', 'Shares', 'Sponsor Category', 'Sponsor Id', 'Sponsor Name', 'Total Interactions', 'Total Views', 'Total Views For All Crossposts', 'Type', 'Video Length', 'Video Share Status', 'Wow', 'advocacy_msg_type_illuminating', 'attack_msg_type_illuminating', 'covid_topic_illuminating', 'cta_msg_type_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'engagement_cta_subtype_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'fraud_illuminating', 'freefair_illuminating', 'fundraising_cta_subtype_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'image_msg_type_illuminating', 'immigration_topic_illuminating', 'incivility_illuminating', 'issue_msg_type_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'post_id', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'scam_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'voting_cta_subtype_illuminating', 'womens_issue_topic_illuminating']
+
+--- DESCRIBE (include='all') ---
+                                                      count unique  ...    75%        max
+Facebook_Id                                           19009     21  ...    NaN        NaN
+post_id                                               19009  19009  ...    NaN        NaN
+Page Category                                         16537      6  ...    NaN        NaN
+Page Admin Top Country                                16280      1  ...    NaN        NaN
+Post Created                                          19009  18951  ...    NaN        NaN
+Post Created Date                                     19009    425  ...    NaN        NaN
+Post Created Time                                     19009  16102  ...    NaN        NaN
+Type                                                  16544      9  ...    NaN        NaN
+Total Interactions                                    19009   5665  ...    NaN        NaN
+Likes                                               19009.0    NaN  ...  738.0   351979.0
+Comments                                            19009.0    NaN  ...  354.0    93872.0
+Shares                                              19009.0    NaN  ...  102.0    76150.0
+Love                                                19009.0    NaN  ...   70.0   244482.0
+Wow                                                 19009.0    NaN  ...    3.0     4345.0
+Haha                                                19009.0    NaN  ...   29.0    99276.0
+Sad                                                 19009.0    NaN  ...    2.0    56111.0
+Angry                                               19009.0    NaN  ...    9.0    11814.0
+Care                                                19009.0    NaN  ...    6.0    85236.0
+Video Share Status                                     3271      3  ...    NaN        NaN
+Is Video Owner?                                       16544      3  ...    NaN        NaN
+Post Views                                          16544.0    NaN  ...    0.0  4276477.0
+Total Views                                         16544.0    NaN  ...    0.0  4462155.0
+Total Views For All Crossposts                      16544.0    NaN  ...    0.0  4499458.0
+Video Length                                           3271    774  ...    NaN        NaN
+Sponsor Id                                              0.0    NaN  ...    NaN        NaN
+Sponsor Name                                            0.0    NaN  ...    NaN        NaN
+Sponsor Category                                        0.0    NaN  ...    NaN        NaN
+Overperforming Score                                16544.0    NaN  ...   1.16     246.78
+illuminating_scored_messageelection_integrity_T...      0.0    NaN  ...    NaN        NaN
+advocacy_msg_type_illuminating                      19009.0    NaN  ...    1.0        1.0
+issue_msg_type_illuminating                         19009.0    NaN  ...    1.0        1.0
+attack_msg_type_illuminating                        19009.0    NaN  ...    0.0        1.0
+image_msg_type_illuminating                         19009.0    NaN  ...    0.0        1.0
+cta_msg_type_illuminating                           19009.0    NaN  ...    0.0        1.0
+engagement_cta_subtype_illuminating                 19009.0    NaN  ...    0.0        1.0
+fundraising_cta_subtype_illuminating                19009.0    NaN  ...    0.0        1.0
+voting_cta_subtype_illuminating                     19009.0    NaN  ...    0.0        1.0
+covid_topic_illuminating                            19009.0    NaN  ...    0.0        1.0
+economy_topic_illuminating                          19009.0    NaN  ...    0.0        1.0
+education_topic_illuminating                        19009.0    NaN  ...    0.0        1.0
+environment_topic_illuminating                      19009.0    NaN  ...    0.0        1.0
+foreign_policy_topic_illuminating                   19009.0    NaN  ...    0.0        1.0
+governance_topic_illuminating                       19009.0    NaN  ...    0.0        1.0
+health_topic_illuminating                           19009.0    NaN  ...    0.0        1.0
+immigration_topic_illuminating                      19009.0    NaN  ...    0.0        1.0
+lgbtq_issues_topic_illuminating                     19009.0    NaN  ...    0.0        1.0
+military_topic_illuminating                         19009.0    NaN  ...    0.0        1.0
+race_and_ethnicity_topic_illuminating               19009.0    NaN  ...    0.0        1.0
+safety_topic_illuminating                           19009.0    NaN  ...    0.0        1.0
+social_and_cultural_topic_illuminating              19009.0    NaN  ...    0.0        1.0
+technology_and_privacy_topic_illuminating           19009.0    NaN  ...    0.0        1.0
+womens_issue_topic_illuminating                     19009.0    NaN  ...    0.0        1.0
+incivility_illuminating                             19009.0    NaN  ...    0.0        1.0
+scam_illuminating                                   18060.0    NaN  ...    0.0        1.0
+freefair_illuminating                               19009.0    NaN  ...    0.0        1.0
+fraud_illuminating                                  19009.0    NaN  ...    0.0        1.0
+
+[56 rows x 11 columns]
+
+--- Column: Facebook_Id ---
+  Non-null count: 19009
+  Unique values: 21
+  Most frequent: '32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064' (9013 times)
+
+--- Column: post_id ---
+  Non-null count: 19009
+  Unique values: 19009
+  Most frequent: '8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138' (1 times)
+
+--- Column: Page Category ---
+  Non-null count: 16537
+  Unique values: 6
+  Most frequent: 'PERSON' (9453 times)
+
+--- Column: Page Admin Top Country ---
+  Non-null count: 16280
+  Unique values: 1
+  Most frequent: 'US' (16280 times)
+
+--- Column: Post Created ---
+  Non-null count: 19009
+  Unique values: 18951
+  Most frequent: '2023-11-14 11:11:44 EST' (2 times)
+
+--- Column: Post Created Date ---
+  Non-null count: 19009
+  Unique values: 425
+  Most frequent: '2024-10-31' (103 times)
+
+--- Column: Post Created Time ---
+  Non-null count: 19009
+  Unique values: 16102
+  Most frequent: '19:42:00' (7 times)
+
+--- Column: Type ---
+  Non-null count: 16544
+  Unique values: 9
+  Most frequent: 'Link' (7404 times)
+
+--- Column: Total Interactions ---
+  Non-null count: 19009
+  Unique values: 5665
+  Most frequent: '15' (115 times)
+
+--- Column: Video Share Status ---
+  Non-null count: 3271
+  Unique values: 3
+  Most frequent: 'owned' (3100 times)
+
+--- Column: Is Video Owner? ---
+  Non-null count: 16544
+  Unique values: 3
+  Most frequent: '-' (13280 times)
+
+--- Column: Video Length ---
+  Non-null count: 3271
+  Unique values: 774
+  Most frequent: '00:00:30' (83 times)
+
+========== TIMING SUMMARY ==========
+Data loading: 0.10 seconds
+JSON unpacking: 0.00 seconds
+Total execution time: 0.23 seconds

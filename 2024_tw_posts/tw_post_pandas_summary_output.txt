@@ -1,0 +1,774 @@
+Loaded 27304 rows, 47 columns in 0.19 seconds.
+Columns: ['id', 'url', 'source', 'retweetCount', 'replyCount', 'likeCount', 'quoteCount', 'viewCount', 'createdAt', 'lang', 'bookmarkCount', 'isReply', 'isRetweet', 'isQuote', 'isConversationControlled', 'quoteId', 'inReplyToId', 'month_year', 'illuminating_scored_message', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+===== OVERALL SUMMARY =====
+Column: id
+  count: 27304
+  non_null: 27304
+  unique: 27304
+  most_frequent: cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d
+  most_frequent_count: 1
+
+Column: url
+  count: 27304
+  non_null: 27304
+  unique: 27304
+  most_frequent: f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937
+  most_frequent_count: 1
+
+Column: source
+  count: 27304
+  non_null: 27304
+  unique: 14
+  most_frequent: Twitter Web App
+  most_frequent_count: 14930
+
+Column: retweetCount
+  count: 27304
+  non_null: 27304
+  mean: 1322.0551933782597
+  min: 0
+  max: 144615
+  std: 3405.0042401645187
+
+Column: replyCount
+  count: 27304
+  non_null: 27304
+  mean: 1063.7850131848813
+  min: 0
+  max: 121270
+  std: 3174.981654139348
+
+Column: likeCount
+  count: 27304
+  non_null: 27304
+  mean: 6913.69282888954
+  min: 0
+  max: 915221
+  std: 21590.307989209447
+
+Column: quoteCount
+  count: 27304
+  non_null: 27304
+  mean: 128.08156314093173
+  min: 0
+  max: 123320
+  std: 1131.5334680019284
+
+Column: viewCount
+  count: 27304
+  non_null: 27304
+  mean: 507084.7318341635
+  min: 5
+  max: 333502775
+  std: 3212173.986296655
+
+Column: createdAt
+  count: 27304
+  non_null: 27304
+  unique: 27014
+  most_frequent: 2023-10-06 04:55:21
+  most_frequent_count: 4
+
+Column: lang
+  count: 27304
+  non_null: 27304
+  unique: 12
+  most_frequent: en
+  most_frequent_count: 27281
+
+Column: bookmarkCount
+  count: 27304
+  non_null: 27304
+  mean: 136.21352182830356
+  min: 0
+  max: 42693
+  std: 712.5802944831518
+
+Column: isReply
+  count: 27304
+  non_null: 27304
+  true_count: 3374
+  false_count: 23930
+
+Column: isRetweet
+  count: 27304
+  non_null: 27304
+  true_count: 0
+  false_count: 27304
+
+Column: isQuote
+  count: 27304
+  non_null: 27304
+  true_count: 3240
+  false_count: 24064
+
+Column: isConversationControlled
+  count: 27304
+  non_null: 27304
+  unique: 2
+  most_frequent: False
+  most_frequent_count: 27296
+
+Column: quoteId
+  count: 27304
+  non_null: 3287
+  unique: 3159
+  most_frequent: 1.711730672279122e+18
+  most_frequent_count: 5
+
+Column: inReplyToId
+  count: 27304
+  non_null: 3345
+  unique: 3309
+  most_frequent: 1.7444996006715807e+18
+  most_frequent_count: 6
+
+Column: month_year
+  count: 27304
+  non_null: 27304
+  unique: 15
+  most_frequent: 2024-10
+  most_frequent_count: 3586
+
+Column: illuminating_scored_message
+  count: 27304
+  non_null: 27304
+  unique: 27136
+  most_frequent: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd
+  most_frequent_count: 21
+
+Column: election_integrity_Truth_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25067
+
+Column: advocacy_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 1.0
+  most_frequent_count: 14675
+
+Column: issue_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 1.0
+  most_frequent_count: 13217
+
+Column: attack_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 18026
+
+Column: image_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 20139
+
+Column: cta_msg_type_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 23179
+
+Column: engagement_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 24292
+
+Column: fundraising_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25829
+
+Column: voting_cta_subtype_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25597
+
+Column: covid_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25836
+
+Column: economy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 21863
+
+Column: education_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25554
+
+Column: environment_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25291
+
+Column: foreign_policy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 24934
+
+Column: governance_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25436
+
+Column: health_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 24585
+
+Column: immigration_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 24334
+
+Column: lgbtq_issues_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25954
+
+Column: military_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25748
+
+Column: race_and_ethnicity_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25633
+
+Column: safety_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25055
+
+Column: social_and_cultural_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 24681
+
+Column: technology_and_privacy_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25981
+
+Column: womens_issue_topic_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25427
+
+Column: incivility_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 21385
+
+Column: scam_illuminating
+  count: 27304
+  non_null: 26034
+  unique: 2
+  most_frequent: 0.0
+  most_frequent_count: 25712
+
+Column: freefair_illuminating
+  count: 27304
+  non_null: 27304
+  unique: 2
+  most_frequent: 0
+  most_frequent_count: 27265
+
+Column: fraud_illuminating
+  count: 27304
+  non_null: 27304
+  unique: 2
+  most_frequent: 0
+  most_frequent_count: 27229
+
+
+===== GROUPED BY source =====
+Number of groups: 14
+
+--- source: Canva ---
+Records: 1
+  retweetCount:
+    count: 1
+    non_null: 1
+    mean: 69.0
+    min: 69
+    max: 69
+    std: nan
+  replyCount:
+    count: 1
+    non_null: 1
+    mean: 324.0
+    min: 324
+    max: 324
+    std: nan
+  likeCount:
+    count: 1
+    non_null: 1
+    mean: 490.0
+    min: 490
+    max: 490
+    std: nan
+  quoteCount:
+    count: 1
+    non_null: 1
+    mean: 40.0
+    min: 40
+    max: 40
+    std: nan
+  viewCount:
+    count: 1
+    non_null: 1
+    mean: 41173.0
+    min: 41173
+    max: 41173
+    std: nan
+  bookmarkCount:
+    count: 1
+    non_null: 1
+    mean: 16.0
+    min: 16
+    max: 16
+    std: nan
+  source:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: Canva
+    most_frequent_count: 1
+  lang:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: en
+    most_frequent_count: 1
+  month_year:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: 2024-02
+    most_frequent_count: 1
+  isReply:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  isRetweet:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  isQuote:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  illuminating_scored_message:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: 89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59
+    most_frequent_count: 1
+
+
+--- source: Hootsuite Inc. ---
+Records: 47
+  retweetCount:
+    count: 47
+    non_null: 47
+    mean: 129.9787234042553
+    min: 47
+    max: 780
+    std: 137.6732883317385
+  replyCount:
+    count: 47
+    non_null: 47
+    mean: 37.191489361702125
+    min: 8
+    max: 168
+    std: 30.110404310363887
+  likeCount:
+    count: 47
+    non_null: 47
+    mean: 380.82978723404256
+    min: 120
+    max: 2195
+    std: 404.7153760547913
+  quoteCount:
+    count: 47
+    non_null: 47
+    mean: 7.531914893617022
+    min: 0
+    max: 44
+    std: 8.619621357137767
+  viewCount:
+    count: 47
+    non_null: 47
+    mean: 29066.617021276597
+    min: 13542
+    max: 68518
+    std: 13547.32340089361
+  bookmarkCount:
+    count: 47
+    non_null: 47
+    mean: 8.446808510638299
+    min: 1
+    max: 56
+    std: 10.57644739943283
+  source:
+    count: 47
+    non_null: 47
+    unique: 1
+    most_frequent: Hootsuite Inc.
+    most_frequent_count: 47
+  lang:
+    count: 47
+    non_null: 47
+    unique: 1
+    most_frequent: en
+    most_frequent_count: 47
+  month_year:
+    count: 47
+    non_null: 47
+    unique: 8
+    most_frequent: 2024-03
+    most_frequent_count: 11
+  isReply:
+    count: 47
+    non_null: 47
+    true_count: 0
+    false_count: 47
+  isRetweet:
+    count: 47
+    non_null: 47
+    true_count: 0
+    false_count: 47
+  isQuote:
+    count: 47
+    non_null: 47
+    true_count: 0
+    false_count: 47
+  illuminating_scored_message:
+    count: 47
+    non_null: 47
+    unique: 47
+    most_frequent: a25f3ec57aff02964e8c82c60c021b784484bd49b4255da63631b1c9125da450
+    most_frequent_count: 1
+
+
+--- source: Later Media ---
+Records: 1
+  retweetCount:
+    count: 1
+    non_null: 1
+    mean: 93.0
+    min: 93
+    max: 93
+    std: nan
+  replyCount:
+    count: 1
+    non_null: 1
+    mean: 18.0
+    min: 18
+    max: 18
+    std: nan
+  likeCount:
+    count: 1
+    non_null: 1
+    mean: 280.0
+    min: 280
+    max: 280
+    std: nan
+  quoteCount:
+    count: 1
+    non_null: 1
+    mean: 10.0
+    min: 10
+    max: 10
+    std: nan
+  viewCount:
+    count: 1
+    non_null: 1
+    mean: 12847.0
+    min: 12847
+    max: 12847
+    std: nan
+  bookmarkCount:
+    count: 1
+    non_null: 1
+    mean: 5.0
+    min: 5
+    max: 5
+    std: nan
+  source:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: Later Media
+    most_frequent_count: 1
+  lang:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: en
+    most_frequent_count: 1
+  month_year:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: 2024-02
+    most_frequent_count: 1
+  isReply:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  isRetweet:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  isQuote:
+    count: 1
+    non_null: 1
+    true_count: 0
+    false_count: 1
+  illuminating_scored_message:
+    count: 1
+    non_null: 1
+    unique: 1
+    most_frequent: 0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c
+    most_frequent_count: 1
+
+
+--- source: Loomly ---
+Records: 10
+  retweetCount:
+    count: 10
+    non_null: 10
+    mean: 25.4
+    min: 0
+    max: 230
+    std: 72.09130013778054
+  replyCount:
+    count: 10
+    non_null: 10
+    mean: 23.1
+    min: 0
+    max: 188
+    std: 58.14818235431879
+  likeCount:
+    count: 10
+    non_null: 10
+    mean: 160.3
+    min: 0
+    max: 1301
+    std: 404.63345552899267
+  quoteCount:
+    count: 10
+    non_null: 10
+    mean: 1.4
+    min: 0
+    max: 13
+    std: 4.087922591134905
+  viewCount:
+    count: 10
+    non_null: 10
+    mean: 17030.0
+    min: 154
+    max: 85529
+    std: 26880.927406289804
+  bookmarkCount:
+    count: 10
+    non_null: 10
+    mean: 0.4
+    min: 0
+    max: 1
+    std: 0.5163977794943223
+  source:
+    count: 10
+    non_null: 10
+    unique: 1
+    most_frequent: Loomly
+    most_frequent_count: 10
+  lang:
+    count: 10
+    non_null: 10
+    unique: 1
+    most_frequent: en
+    most_frequent_count: 10
+  month_year:
+    count: 10
+    non_null: 10
+    unique: 2
+    most_frequent: 2024-01
+    most_frequent_count: 8
+  isReply:
+    count: 10
+    non_null: 10
+    true_count: 0
+    false_count: 10
+  isRetweet:
+    count: 10
+    non_null: 10
+    true_count: 0
+    false_count: 10
+  isQuote:
+    count: 10
+    non_null: 10
+    true_count: 0
+    false_count: 10
+  illuminating_scored_message:
+    count: 10
+    non_null: 10
+    unique: 10
+    most_frequent: 1bf5489168b7d42f20bf47772caa31390703ea80dea00d0963de14052d1f9acc
+    most_frequent_count: 1
+
+
+--- source: Periscope ---
+Records: 103
+  retweetCount:
+    count: 103
+    non_null: 103
+    mean: 596.7281553398059
+    min: 23
+    max: 29648
+    std: 2949.736392988545
+  replyCount:
+    count: 103
+    non_null: 103
+    mean: 402.05825242718447
+    min: 3
+    max: 14559
+    std: 1525.123908982433
+  likeCount:
+    count: 103
+    non_null: 103
+    mean: 2483.359223300971
+    min: 96
+    max: 127603
+    std: 12738.926123557598
+  quoteCount:
+    count: 103
+    non_null: 103
+    mean: 78.51456310679612
+    min: 0
+    max: 4891
+    std: 484.4979383205021
+  viewCount:
+    count: 103
+    non_null: 103
+    mean: 303090.4368932039
+    min: 9518
+    max: 14689732
+    std: 1494268.6379843687
+  bookmarkCount:
+    count: 103
+    non_null: 103
+    mean: 185.62135922330097
+    min: 0
+    max: 14567
+    std: 1434.399991500886
+  source:
+    count: 103
+    non_null: 103
+    unique: 1
+    most_frequent: Periscope
+    most_frequent_count: 103
+  lang:
+    count: 103
+    non_null: 103
+    unique: 1
+    most_frequent: en
+    most_frequent_count: 103
+  month_year:
+    count: 103
+    non_null: 103
+    unique: 14
+    most_frequent: 2023-12
+    most_frequent_count: 23
+  isReply:
+    count: 103
+    non_null: 103
+    true_count: 0
+    false_count: 103
+  isRetweet:
+    count: 103
+    non_null: 103
+    true_count: 0
+    false_count: 103
+  isQuote:
+    count: 103
+    non_null: 103
+    true_count: 0
+    false_count: 103
+  illuminating_scored_message:
+    count: 103
+    non_null: 103
+    unique: 103
+    most_frequent: 8802a0ed591ab28aaae38436b1ce398fef2bb47fbd596100f1fc1e686db57dc9
+    most_frequent_count: 1
+
+... and 9 more groups
+
+Groupby analysis completed in 0.03 seconds.
+
+===== TIMING =====
+Data loading: 0.19 seconds
+Groupby: 0.03 seconds
+Total execution time: 0.57 seconds
+
+# Performance: Pandas is typically much faster than pure Python for large datasets due to vectorized operations.

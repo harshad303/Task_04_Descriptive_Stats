@@ -1,0 +1,415 @@
+Loading Facebook posts dataset...
+Dataset loaded in 0.50 seconds
+Total rows: 19009
+JSON unpacking completed in 0.00 seconds
+
+==================================================
+OVERALL DATASET SUMMARY
+==================================================
+Total rows: 19009
+Total columns: 56
+Columns: ['Angry', 'Care', 'Comments', 'Facebook_Id', 'Haha', 'Is Video Owner?', 'Likes', 'Love', 'Overperforming Score', 'Page Admin Top Country', 'Page Category', 'Post Created', 'Post Created Date', 'Post Created Time', 'Post Views', 'Sad', 'Shares', 'Sponsor Category', 'Sponsor Id', 'Sponsor Name', 'Total Interactions', 'Total Views', 'Total Views For All Crossposts', 'Type', 'Video Length', 'Video Share Status', 'Wow', 'advocacy_msg_type_illuminating', 'attack_msg_type_illuminating', 'covid_topic_illuminating', 'cta_msg_type_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'engagement_cta_subtype_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'fraud_illuminating', 'freefair_illuminating', 'fundraising_cta_subtype_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'image_msg_type_illuminating', 'immigration_topic_illuminating', 'incivility_illuminating', 'issue_msg_type_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'post_id', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'scam_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'voting_cta_subtype_illuminating', 'womens_issue_topic_illuminating']
+
+NUMERIC COLUMNS:
+------------------------------
+Column: Angry
+  Count: 19009
+  Mean: 20.06
+  Min: 0
+  Max: 11814
+  Std: 156.02
+
+Column: Care
+  Count: 19009
+  Mean: 34.93
+  Min: 0
+  Max: 85236
+  Std: 790.10
+
+Column: Comments
+  Count: 19009
+  Mean: 901.58
+  Min: 0
+  Max: 93872
+  Std: 3681.98
+
+Column: Haha
+  Count: 19009
+  Mean: 105.72
+  Min: 0
+  Max: 99276
+  Std: 942.03
+
+Column: Likes
+  Count: 19009
+  Mean: 2377.70
+  Min: 0
+  Max: 351979
+  Std: 11253.47
+
+Column: Love
+  Count: 19009
+  Mean: 413.88
+  Min: 0
+  Max: 244482
+  Std: 3730.94
+
+Column: Overperforming Score
+  Count: 16544
+  Mean: -2.74
+  Min: -198.75
+  Max: 246.78
+  Std: 7.81
+
+Column: Post Views
+  Count: 16544
+  Mean: 6485.06
+  Min: 0.0
+  Max: 4276477.0
+  Std: 90392.96
+
+Column: Sad
+  Count: 19009
+  Mean: 10.17
+  Min: 0
+  Max: 56111
+  Std: 418.33
+
+Column: Shares
+  Count: 19009
+  Mean: 320.54
+  Min: 0
+  Max: 76150
+  Std: 1722.16
+
+Column: Total Views
+  Count: 16544
+  Mean: 7461.85
+  Min: 0.0
+  Max: 4462155.0
+  Std: 95976.28
+
+Column: Total Views For All Crossposts
+  Count: 16544
+  Mean: 3555.94
+  Min: 0.0
+  Max: 4499458.0
+  Std: 88094.05
+
+Column: Wow
+  Count: 19009
+  Mean: 5.87
+  Min: 0
+  Max: 4345
+  Std: 52.95
+
+Column: advocacy_msg_type_illuminating
+  Count: 19009
+  Mean: 0.55
+  Min: 0
+  Max: 1
+  Std: 0.50
+
+Column: attack_msg_type_illuminating
+  Count: 19009
+  Mean: 0.22
+  Min: 0
+  Max: 1
+  Std: 0.41
+
+Column: covid_topic_illuminating
+  Count: 19009
+  Mean: 0.05
+  Min: 0
+  Max: 1
+  Std: 0.22
+
+Column: cta_msg_type_illuminating
+  Count: 19009
+  Mean: 0.13
+  Min: 0
+  Max: 1
+  Std: 0.34
+
+Column: economy_topic_illuminating
+  Count: 19009
+  Mean: 0.09
+  Min: 0
+  Max: 1
+  Std: 0.29
+
+Column: education_topic_illuminating
+  Count: 19009
+  Mean: 0.01
+  Min: 0
+  Max: 1
+  Std: 0.12
+
+Column: engagement_cta_subtype_illuminating
+  Count: 19009
+  Mean: 0.09
+  Min: 0
+  Max: 1
+  Std: 0.29
+
+Column: environment_topic_illuminating
+  Count: 19009
+  Mean: 0.02
+  Min: 0
+  Max: 1
+  Std: 0.15
+
+Column: foreign_policy_topic_illuminating
+  Count: 19009
+  Mean: 0.04
+  Min: 0
+  Max: 1
+  Std: 0.19
+
+Column: fraud_illuminating
+  Count: 19009
+  Mean: 0.01
+  Min: 0
+  Max: 1
+  Std: 0.09
+
+Column: freefair_illuminating
+  Count: 19009
+  Mean: 0.00
+  Min: 0
+  Max: 1
+  Std: 0.05
+
+Column: fundraising_cta_subtype_illuminating
+  Count: 19009
+  Mean: 0.02
+  Min: 0
+  Max: 1
+  Std: 0.13
+
+Column: governance_topic_illuminating
+  Count: 19009
+  Mean: 0.03
+  Min: 0
+  Max: 1
+  Std: 0.17
+
+Column: health_topic_illuminating
+  Count: 19009
+  Mean: 0.05
+  Min: 0
+  Max: 1
+  Std: 0.22
+
+Column: image_msg_type_illuminating
+  Count: 19009
+  Mean: 0.15
+  Min: 0
+  Max: 1
+  Std: 0.36
+
+Column: immigration_topic_illuminating
+  Count: 19009
+  Mean: 0.04
+  Min: 0
+  Max: 1
+  Std: 0.20
+
+Column: incivility_illuminating
+  Count: 19009
+  Mean: 0.13
+  Min: 0
+  Max: 1
+  Std: 0.33
+
+Column: issue_msg_type_illuminating
+  Count: 19009
+  Mean: 0.46
+  Min: 0
+  Max: 1
+  Std: 0.50
+
+Column: lgbtq_issues_topic_illuminating
+  Count: 19009
+  Mean: 0.00
+  Min: 0
+  Max: 1
+  Std: 0.06
+
+Column: military_topic_illuminating
+  Count: 19009
+  Mean: 0.01
+  Min: 0
+  Max: 1
+  Std: 0.07
+
+Column: race_and_ethnicity_topic_illuminating
+  Count: 19009
+  Mean: 0.02
+  Min: 0
+  Max: 1
+  Std: 0.15
+
+Column: safety_topic_illuminating
+  Count: 19009
+  Mean: 0.03
+  Min: 0
+  Max: 1
+  Std: 0.18
+
+Column: scam_illuminating
+  Count: 18060
+  Mean: 0.02
+  Min: 0.0
+  Max: 1.0
+  Std: 0.14
+
+Column: social_and_cultural_topic_illuminating
+  Count: 19009
+  Mean: 0.06
+  Min: 0
+  Max: 1
+  Std: 0.24
+
+Column: technology_and_privacy_topic_illuminating
+  Count: 19009
+  Mean: 0.00
+  Min: 0
+  Max: 1
+  Std: 0.05
+
+Column: voting_cta_subtype_illuminating
+  Count: 19009
+  Mean: 0.02
+  Min: 0
+  Max: 1
+  Std: 0.15
+
+Column: womens_issue_topic_illuminating
+  Count: 19009
+  Mean: 0.03
+  Min: 0
+  Max: 1
+  Std: 0.16
+
+STRING COLUMNS:
+------------------------------
+Column: Facebook_Id
+  Count: 19009
+  Unique values: 21
+  Most frequent: '32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064' (9013 times)
+
+Column: Is Video Owner?
+  Count: 16544
+  Unique values: 3
+  Most frequent: '-' (13280 times)
+
+Column: Page Admin Top Country
+  Count: 16280
+  Unique values: 1
+  Most frequent: 'US' (16280 times)
+
+Column: Page Category
+  Count: 16537
+  Unique values: 6
+  Most frequent: 'PERSON' (9453 times)
+
+Column: Post Created
+  Count: 19009
+  Unique values: 18951
+  Most frequent: '2023-11-14 11:11:44 EST' (2 times)
+
+Column: Post Created Date
+  Count: 19009
+  Unique values: 425
+  Most frequent: '2024-10-31' (103 times)
+
+Column: Post Created Time
+  Count: 19009
+  Unique values: 16102
+  Most frequent: '19:42:00' (7 times)
+
+Column: Total Interactions
+  Count: 19009
+  Unique values: 5665
+  Most frequent: '23' (115 times)
+
+Column: Type
+  Count: 16544
+  Unique values: 9
+  Most frequent: 'Link' (7404 times)
+
+Column: Video Length
+  Count: 3271
+  Unique values: 774
+  Most frequent: '00:00:30' (83 times)
+
+Column: Video Share Status
+  Count: 3271
+  Unique values: 3
+  Most frequent: 'owned' (3100 times)
+
+Column: post_id
+  Count: 19009
+  Unique values: 19009
+  Most frequent: '8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138' (1 times)
+
+
+==================================================
+GROUPED BY page_id
+==================================================
+
+Group: None
+Records: 19009
+  Numeric columns:
+    Angry: mean=20.06, min=0, max=11814
+    Care: mean=34.93, min=0, max=85236
+    Comments: mean=901.58, min=0, max=93872
+  String columns:
+    Facebook_Id: 21 unique, most frequent='32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064' (9013 times)
+    Is Video Owner?: 3 unique, most frequent='-' (13280 times)
+    Page Admin Top Country: 1 unique, most frequent='US' (16280 times)
+
+Grouped analysis completed in 0.77 seconds
+
+==================================================
+GROUPED BY page_id + post_id
+==================================================
+
+Group: None + 8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138
+Records: 1
+  Numeric columns:
+    Angry: mean=2.00, min=2, max=2
+    Care: mean=0.00, min=0, max=0
+  String columns:
+    Facebook_Id: 1 unique, most frequent='a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813' (1 times)
+    Is Video Owner?: 1 unique, most frequent='-' (1 times)
+
+Group: None + 41ec27cecd8af40007a9faf8c3e5c9225bcff0b8d58856563bbc9d59d7dbb6e6
+Records: 1
+  Numeric columns:
+    Angry: mean=0.00, min=0, max=0
+    Care: mean=0.00, min=0, max=0
+  String columns:
+    Facebook_Id: 1 unique, most frequent='a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813' (1 times)
+    Is Video Owner?: 1 unique, most frequent='-' (1 times)
+
+Group: None + 1dcb5e00cd1c8d7ee141922f50f29e59e96328231b6937870e87029c97b26377
+Records: 1
+  Numeric columns:
+    Angry: mean=0.00, min=0, max=0
+    Care: mean=1.00, min=1, max=1
+  String columns:
+    Facebook_Id: 1 unique, most frequent='a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813' (1 times)
+    Is Video Owner?: 1 unique, most frequent='-' (1 times)
+... and 19006 more groups
+
+Grouped analysis completed in 6.08 seconds
+
+==================================================
+TIMING SUMMARY
+==================================================
+Data loading: 0.50 seconds
+JSON unpacking: 0.00 seconds
+Overall analysis: 8.35 seconds
+Total execution time: 8.84 seconds

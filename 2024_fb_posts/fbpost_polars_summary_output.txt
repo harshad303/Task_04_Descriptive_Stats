@@ -1,0 +1,120 @@
+Loading dataset...
+Dataset loaded in 0.03 seconds. Shape: (19009, 56)
+Columns: ['Facebook_Id', 'post_id', 'Page Category', 'Page Admin Top Country', 'Post Created', 'Post Created Date', 'Post Created Time', 'Type', 'Total Interactions', 'Likes', 'Comments', 'Shares', 'Love', 'Wow', 'Haha', 'Sad', 'Angry', 'Care', 'Video Share Status', 'Is Video Owner?', 'Post Views', 'Total Views', 'Total Views For All Crossposts', 'Video Length', 'Sponsor Id', 'Sponsor Name', 'Sponsor Category', 'Overperforming Score', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+JSON unpacking completed in 0.00 seconds. New shape: (19009, 56)
+
+========== OVERALL DATASET SUMMARY ==========
+Total rows: 19009
+Total columns: 56
+Columns: ['Angry', 'Care', 'Comments', 'Facebook_Id', 'Haha', 'Is Video Owner?', 'Likes', 'Love', 'Overperforming Score', 'Page Admin Top Country', 'Page Category', 'Post Created', 'Post Created Date', 'Post Created Time', 'Post Views', 'Sad', 'Shares', 'Sponsor Category', 'Sponsor Id', 'Sponsor Name', 'Total Interactions', 'Total Views', 'Total Views For All Crossposts', 'Type', 'Video Length', 'Video Share Status', 'Wow', 'advocacy_msg_type_illuminating', 'attack_msg_type_illuminating', 'covid_topic_illuminating', 'cta_msg_type_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'engagement_cta_subtype_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'fraud_illuminating', 'freefair_illuminating', 'fundraising_cta_subtype_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'image_msg_type_illuminating', 'immigration_topic_illuminating', 'incivility_illuminating', 'issue_msg_type_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'post_id', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'scam_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'voting_cta_subtype_illuminating', 'womens_issue_topic_illuminating']
+
+NUMERIC COLUMNS:
+------------------------------
+shape: (9, 41)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ Likes      ┆ Comments   ┆ Shares     ┆ … ┆ incivilit ┆ scam_illu ┆ freefair_ ┆ fraud_ill │
+│ ---        ┆ ---        ┆ ---        ┆ ---        ┆   ┆ y_illumin ┆ minating  ┆ illuminat ┆ uminating │
+│ str        ┆ f64        ┆ f64        ┆ f64        ┆   ┆ ating     ┆ ---       ┆ ing       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ ---       ┆ f64       ┆ ---       ┆ f64       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆           ┆ f64       ┆           │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 19009.0    ┆ 19009.0    ┆ 19009.0    ┆ … ┆ 19009.0   ┆ 18060.0   ┆ 19009.0   ┆ 19009.0   │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 0.0       ┆ 949.0     ┆ 0.0       ┆ 0.0       │
+│ mean       ┆ 2377.69540 ┆ 901.583197 ┆ 320.538955 ┆ … ┆ 0.127887  ┆ 0.02021   ┆ 0.002841  ┆ 0.008627  │
+│            ┆ 7          ┆            ┆            ┆   ┆           ┆           ┆           ┆           │
+│ std        ┆ 11253.4696 ┆ 3681.98009 ┆ 1722.15987 ┆ … ┆ 0.333972  ┆ 0.140723  ┆ 0.053224  ┆ 0.092485  │
+│            ┆ 69         ┆ 6          ┆ 9          ┆   ┆           ┆           ┆           ┆           │
+│ min        ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ 25%        ┆ 31.0       ┆ 8.0        ┆ 3.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ 50%        ┆ 139.0      ┆ 48.0       ┆ 21.0       ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ 75%        ┆ 738.0      ┆ 354.0      ┆ 102.0      ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ max        ┆ 351979.0   ┆ 93872.0    ┆ 76150.0    ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+STRING COLUMNS:
+------------------------------
+Column: Facebook_Id
+  Non-null count: 19009
+  Unique values: 21
+  Most frequent: be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb (136 times)
+
+Column: post_id
+  Non-null count: 19009
+  Unique values: 19009
+  Most frequent: 07961c40095333ba4993765b1df6bd75700279c648b9eff6ac13f1d289173eb6 (1 times)
+
+Column: Page Category
+  Non-null count: 16537
+  Unique values: 7
+  Most frequent: PERSON (9453 times)
+
+Column: Page Admin Top Country
+  Non-null count: 16280
+  Unique values: 2
+  Most frequent: US (16280 times)
+
+Column: Post Created
+  Non-null count: 19009
+  Unique values: 18951
+  Most frequent: 2024-01-11 19:39:37 EST (1 times)
+
+Column: Post Created Date
+  Non-null count: 19009
+  Unique values: 425
+  Most frequent: 2023-10-28 (57 times)
+
+Column: Post Created Time
+  Non-null count: 19009
+  Unique values: 16102
+  Most frequent: 16:33:37 (1 times)
+
+Column: Type
+  Non-null count: 16544
+  Unique values: 10
+  Most frequent: YouTube (353 times)
+
+Column: Total Interactions
+  Non-null count: 19009
+  Unique values: 5665
+  Most frequent: 569 (5 times)
+
+Column: Video Share Status
+  Non-null count: 3271
+  Unique values: 4
+  Most frequent: crosspost (72 times)
+
+Column: Is Video Owner?
+  Non-null count: 16544
+  Unique values: 4
+  Most frequent: Yes (3181 times)
+
+Column: Video Length
+  Non-null count: 3271
+  Unique values: 775
+  Most frequent: 00:45:18 (1 times)
+
+Column: Sponsor Id
+  Non-null count: 0
+  Unique values: 1
+  Most frequent: None (19009 times)
+
+Column: Sponsor Name
+  Non-null count: 0
+  Unique values: 1
+  Most frequent: None (19009 times)
+
+Column: Sponsor Category
+  Non-null count: 0
+  Unique values: 1
+  Most frequent: None (19009 times)
+
+Column: illuminating_scored_messageelection_integrity_Truth_illuminating
+  Non-null count: 0
+  Unique values: 1
+  Most frequent: None (19009 times)
+
+========== TIMING SUMMARY ==========
+Data loading: 0.03 seconds
+JSON unpacking: 0.00 seconds
+Total execution time: 0.64 seconds

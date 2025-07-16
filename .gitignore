@@ -1,0 +1,52 @@
+# === DATASET PROTECTION ===
+# Block all CSV files (in all folders)
+*.csv
+
+# Specifically block main datasets (redundant, but explicit)
+2024_tw_posts/2024_tw_posts_president_scored_anon.csv
+2024_fb_posts/2024_fb_posts_president_scored_anon.csv
+2024_fb_ads/2024_fb_ads_president_scored_anon.csv
+
+# Block common data directories
+/data/
+/datasets/
+
+# === PYTHON STANDARD IGNORES ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# === IDE FILES ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# === OS-SPECIFIC FILES ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === JUPYTER NOTEBOOK CHECKPOINTS ===
+.ipynb_checkpoints/
+
+# === LOGS AND TEMP FILES ===
+*.log
+*.tmp
+*.temp
+
+# === ALLOW ANALYSIS SCRIPTS AND OUTPUTS ===
+!*.py
+!*.txt 

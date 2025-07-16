@@ -1,0 +1,289 @@
+Loading dataset...
+Dataset loaded successfully. Shape: (246745, 41)
+Columns: ['page_id', 'ad_id', 'ad_creation_time', 'bylines', 'currency', 'delivery_by_region', 'demographic_distribution', 'estimated_audience_size', 'estimated_impressions', 'estimated_spend', 'publisher_platforms', 'illuminating_scored_message', 'illuminating_mentions', 'scam_illuminating', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+Unpacking JSON columns...
+Processing delivery_by_region...
+Processing demographic_distribution...
+JSON unpacking complete. New shape: (246745, 189)
+
+========== OVERALL DATASET SUMMARY ==========
+Dataset shape: (246745, 189)
+Total rows: 246745
+Total columns: 189
+
+All columns (sorted): ['ad_creation_time', 'ad_id', 'advocacy_msg_type_illuminating', 'attack_msg_type_illuminating', 'bylines', 'covid_topic_illuminating', 'cta_msg_type_illuminating', 'currency', 'delivery_by_region_Alabama_impressions', 'delivery_by_region_Alabama_spend', 'delivery_by_region_Alaska_impressions', 'delivery_by_region_Alaska_spend', 'delivery_by_region_Arizona_impressions', 'delivery_by_region_Arizona_spend', 'delivery_by_region_Arkansas_impressions', 'delivery_by_region_Arkansas_spend', 'delivery_by_region_California_impressions', 'delivery_by_region_California_spend', 'delivery_by_region_Colorado_impressions', 'delivery_by_region_Colorado_spend', 'delivery_by_region_Connecticut_impressions', 'delivery_by_region_Connecticut_spend', 'delivery_by_region_Delaware_impressions', 'delivery_by_region_Delaware_spend', 'delivery_by_region_Florida_impressions', 'delivery_by_region_Florida_spend', 'delivery_by_region_Georgia_impressions', 'delivery_by_region_Georgia_spend', 'delivery_by_region_Hawaii_impressions', 'delivery_by_region_Hawaii_spend', 'delivery_by_region_Idaho_impressions', 'delivery_by_region_Idaho_spend', 'delivery_by_region_Illinois_impressions', 'delivery_by_region_Illinois_spend', 'delivery_by_region_Indiana_impressions', 'delivery_by_region_Indiana_spend', 'delivery_by_region_Iowa_impressions', 'delivery_by_region_Iowa_spend', 'delivery_by_region_Kansas_impressions', 'delivery_by_region_Kansas_spend', 'delivery_by_region_Kentucky_impressions', 'delivery_by_region_Kentucky_spend', 'delivery_by_region_Louisiana_impressions', 'delivery_by_region_Louisiana_spend', 'delivery_by_region_Maine_impressions', 'delivery_by_region_Maine_spend', 'delivery_by_region_Maryland_impressions', 'delivery_by_region_Maryland_spend', 'delivery_by_region_Massachusetts_impressions', 'delivery_by_region_Massachusetts_spend', 'delivery_by_region_Michigan_impressions', 'delivery_by_region_Michigan_spend', 'delivery_by_region_Minnesota_impressions', 'delivery_by_region_Minnesota_spend', 'delivery_by_region_Mississippi_impressions', 'delivery_by_region_Mississippi_spend', 'delivery_by_region_Missouri_impressions', 'delivery_by_region_Missouri_spend', 'delivery_by_region_Montana_impressions', 'delivery_by_region_Montana_spend', 'delivery_by_region_Nebraska_impressions', 'delivery_by_region_Nebraska_spend', 'delivery_by_region_Nevada_impressions', 'delivery_by_region_Nevada_spend', 'delivery_by_region_New Hampshire_impressions', 'delivery_by_region_New Hampshire_spend', 'delivery_by_region_New Jersey_impressions', 'delivery_by_region_New Jersey_spend', 'delivery_by_region_New Mexico_impressions', 'delivery_by_region_New Mexico_spend', 'delivery_by_region_New York_impressions', 'delivery_by_region_New York_spend', 'delivery_by_region_North Carolina_impressions', 'delivery_by_region_North Carolina_spend', 'delivery_by_region_North Dakota_impressions', 'delivery_by_region_North Dakota_spend', 'delivery_by_region_Ohio_impressions', 'delivery_by_region_Ohio_spend', 'delivery_by_region_Oklahoma_impressions', 'delivery_by_region_Oklahoma_spend', 'delivery_by_region_Oregon_impressions', 'delivery_by_region_Oregon_spend', 'delivery_by_region_Pennsylvania_impressions', 'delivery_by_region_Pennsylvania_spend', 'delivery_by_region_Rhode Island_impressions', 'delivery_by_region_Rhode Island_spend', 'delivery_by_region_South Carolina_impressions', 'delivery_by_region_South Carolina_spend', 'delivery_by_region_South Dakota_impressions', 'delivery_by_region_South Dakota_spend', 'delivery_by_region_Tennessee_impressions', 'delivery_by_region_Tennessee_spend', 'delivery_by_region_Texas_impressions', 'delivery_by_region_Texas_spend', 'delivery_by_region_Utah_impressions', 'delivery_by_region_Utah_spend', 'delivery_by_region_Vermont_impressions', 'delivery_by_region_Vermont_spend', 'delivery_by_region_Virginia_impressions', 'delivery_by_region_Virginia_spend', 'delivery_by_region_Washington, District of Columbia_impressions', 'delivery_by_region_Washington, District of Columbia_spend', 'delivery_by_region_Washington_impressions', 'delivery_by_region_Washington_spend', 'delivery_by_region_West Virginia_impressions', 'delivery_by_region_West Virginia_spend', 'delivery_by_region_Wisconsin_impressions', 'delivery_by_region_Wisconsin_spend', 'delivery_by_region_Wyoming_impressions', 'delivery_by_region_Wyoming_spend', 'demographic_distribution_female_13-17_impressions', 'demographic_distribution_female_13-17_spend', 'demographic_distribution_female_18-24_impressions', 'demographic_distribution_female_18-24_spend', 'demographic_distribution_female_25-34_impressions', 'demographic_distribution_female_25-34_spend', 'demographic_distribution_female_35-44_impressions', 'demographic_distribution_female_35-44_spend', 'demographic_distribution_female_45-54_impressions', 'demographic_distribution_female_45-54_spend', 'demographic_distribution_female_55-64_impressions', 'demographic_distribution_female_55-64_spend', 'demographic_distribution_female_65+_impressions', 'demographic_distribution_female_65+_spend', 'demographic_distribution_female_Unknown_impressions', 'demographic_distribution_female_Unknown_spend', 'demographic_distribution_male_13-17_impressions', 'demographic_distribution_male_13-17_spend', 'demographic_distribution_male_18-24_impressions', 'demographic_distribution_male_18-24_spend', 'demographic_distribution_male_25-34_impressions', 'demographic_distribution_male_25-34_spend', 'demographic_distribution_male_35-44_impressions', 'demographic_distribution_male_35-44_spend', 'demographic_distribution_male_45-54_impressions', 'demographic_distribution_male_45-54_spend', 'demographic_distribution_male_55-64_impressions', 'demographic_distribution_male_55-64_spend', 'demographic_distribution_male_65+_impressions', 'demographic_distribution_male_65+_spend', 'demographic_distribution_male_Unknown_impressions', 'demographic_distribution_male_Unknown_spend', 'demographic_distribution_unknown_13-17_impressions', 'demographic_distribution_unknown_13-17_spend', 'demographic_distribution_unknown_18-24_impressions', 'demographic_distribution_unknown_18-24_spend', 'demographic_distribution_unknown_25-34_impressions', 'demographic_distribution_unknown_25-34_spend', 'demographic_distribution_unknown_35-44_impressions', 'demographic_distribution_unknown_35-44_spend', 'demographic_distribution_unknown_45-54_impressions', 'demographic_distribution_unknown_45-54_spend', 'demographic_distribution_unknown_55-64_impressions', 'demographic_distribution_unknown_55-64_spend', 'demographic_distribution_unknown_65+_impressions', 'demographic_distribution_unknown_65+_spend', 'demographic_distribution_unknown_Unknown_impressions', 'demographic_distribution_unknown_Unknown_spend', 'economy_topic_illuminating', 'education_topic_illuminating', 'election_integrity_Truth_illuminating', 'engagement_cta_subtype_illuminating', 'environment_topic_illuminating', 'estimated_audience_size', 'estimated_impressions', 'estimated_spend', 'foreign_policy_topic_illuminating', 'fraud_illuminating', 'freefair_illuminating', 'fundraising_cta_subtype_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'illuminating_mentions', 'illuminating_scored_message', 'image_msg_type_illuminating', 'immigration_topic_illuminating', 'incivility_illuminating', 'issue_msg_type_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'page_id', 'publisher_platforms', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'scam_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'voting_cta_subtype_illuminating', 'womens_issue_topic_illuminating']
+
+--- NUMERIC COLUMNS DESCRIPTIVE STATISTICS ---
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 246745.0   ┆ 246745.0   ┆ 246745.0   ┆ … ┆ 29.0      ┆ 29.0      ┆ 3.0       ┆ 3.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 246716.0  ┆ 246716.0  ┆ 246742.0  ┆ 246742.0  │
+│ mean       ┆ 556462.855 ┆ 45601.5259 ┆ 1061.29143 ┆ … ┆ 1.62069   ┆ 425.55172 ┆ 0.0       ┆ 1.333333  │
+│            ┆ 969        ┆ 52         ┆ 4          ┆   ┆           ┆ 4         ┆           ┆           │
+│ std        ┆ 409864.758 ┆ 136790.769 ┆ 4992.56074 ┆ … ┆ 8.727681  ┆ 2272.4391 ┆ 0.0       ┆ 0.57735   │
+│            ┆ 823        ┆ 901        ┆ 9          ┆   ┆           ┆ 02        ┆           ┆           │
+│ min        ┆ 0.0        ┆ 499.0      ┆ 49.0       ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 1.0       │
+│ 25%        ┆ 75000.0    ┆ 499.0      ┆ 49.0       ┆ … ┆ 0.0       ┆ 1.0       ┆ 0.0       ┆ 1.0       │
+│ 50%        ┆ 300000.0   ┆ 3499.0     ┆ 49.0       ┆ … ┆ 0.0       ┆ 2.0       ┆ 0.0       ┆ 1.0       │
+│ 75%        ┆ 1.000001e6 ┆ 22499.0    ┆ 449.0      ┆ … ┆ 0.0       ┆ 4.0       ┆ 0.0       ┆ 2.0       │
+│ max        ┆ 1.000001e6 ┆ 1e6        ┆ 474999.0   ┆ … ┆ 47.0      ┆ 12241.0   ┆ 0.0       ┆ 2.0       │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+--- STRING COLUMNS DESCRIPTIVE STATISTICS ---
+--- Column: ad_creation_time ---
+Unique Values: 547
+Most Frequent: 2023-08-26 (56 times)
+
+--- Column: ad_id ---
+Unique Values: 246745
+Most Frequent: cc0d9bc7fafb813fc4a96543f330d8fe53c0006e1ce77999408a912ad2370304 (1 times)
+
+--- Column: bylines ---
+Unique Values: 3791
+Most Frequent: Friends of Jackie Gregory (2 times)
+
+--- Column: currency ---
+Unique Values: 18
+Most Frequent: PHP (1 times)
+
+--- Column: illuminating_mentions ---
+Unique Values: 278
+Most Frequent: ['Joe Biden', 'President Trump', 'Kamala Harris', 'Robert F. Kennedy'] (2 times)
+
+--- Column: illuminating_scored_message ---
+Unique Values: 26338
+Most Frequent: 057c2e90dfbb7f2311d5c86654717c08829a0deb4abb25ab5f453d4722026880 (4 times)
+
+--- Column: page_id ---
+Unique Values: 4475
+Most Frequent: 5e1dce92b25e0efac9df166a33d63e1d8cf95a1118bf1b50a5e3df78eaf11298 (35 times)
+
+--- Column: publisher_platforms ---
+Unique Values: 9
+Most Frequent: ['facebook', 'instagram'] (214434 times)
+
+========== GROUPED BY page_id ==========
+Number of unique grouped by page_id: 4475
+
+--- Group: ('8f93bcafca226ca013f0dccec9be494e62046fafa7d28c3e2220323f6ad46f2c',) ---
+Number of records: 1
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 1.0        ┆ 1.0        ┆ 1.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+│ mean       ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ null       ┆ null       ┆ null       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ min        ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 300000.0   ┆ 54999.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('17c3e51e21ca662370917edbbed21ed3ba4ab5dd559cbbec799841729a75605a',) ---
+Number of records: 80
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 80.0       ┆ 80.0       ┆ 80.0       ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 80.0      ┆ 80.0      ┆ 80.0      ┆ 80.0      │
+│ mean       ┆ 928221.525 ┆ 30017.75   ┆ 150.25     ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ 245466.410 ┆ 62652.1663 ┆ 170.252047 ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│            ┆ 853        ┆ 46         ┆            ┆   ┆           ┆           ┆           ┆           │
+│ min        ┆ 550.0      ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 1.000001e6 ┆ 12499.0    ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 1.000001e6 ┆ 17499.0    ┆ 149.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 1.000001e6 ┆ 32499.0    ┆ 149.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 1.000001e6 ┆ 549999.0   ┆ 1249.0     ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('fbf983abe990bd5193576846d88bb2910637ac8a7c433afe2024e234e79f708a',) ---
+Number of records: 8
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 8.0        ┆ 8.0        ┆ 8.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 8.0       ┆ 8.0       ┆ 8.0       ┆ 8.0       │
+│ mean       ┆ 875000.5   ┆ 78249.0    ┆ 2742.75    ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ 133631.155 ┆ 141274.302 ┆ 5986.20064 ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│            ┆ 479        ┆ 587        ┆ 9          ┆   ┆           ┆           ┆           ┆           │
+│ min        ┆ 750000.0   ┆ 3499.0     ┆ 149.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 750000.0   ┆ 17499.0    ┆ 149.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 1.000001e6 ┆ 32499.0    ┆ 1249.0     ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 1.000001e6 ┆ 37499.0    ┆ 1249.0     ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 1.000001e6 ┆ 424999.0   ┆ 17499.0    ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('020dfa95e1f29b7289c10eda9576b2b05c2fa472f0d6284aa8eb48f6d1531075',) ---
+Number of records: 1
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 1.0        ┆ 1.0        ┆ 1.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+│ mean       ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ null       ┆ null       ┆ null       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ min        ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 75000.0    ┆ 6499.0     ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('df91257352c2da0e2c0ea2c2f27b6823c37dc8388dedfc584999e77c8f2aba61',) ---
+Number of records: 3
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 3.0        ┆ 3.0        ┆ 3.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 3.0       ┆ 3.0       ┆ 3.0       ┆ 3.0       │
+│ mean       ┆ 270000.0   ┆ 8499.0     ┆ 182.333333 ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ 415692.193 ┆ 6928.20323 ┆ 115.470054 ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│            ┆ 817        ┆            ┆            ┆   ┆           ┆           ┆           ┆           │
+│ min        ┆ 30000.0    ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 30000.0    ┆ 12499.0    ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 30000.0    ┆ 12499.0    ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 750000.0   ┆ 12499.0    ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 750000.0   ┆ 12499.0    ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+========== GROUPED BY (page_id, ad_id) ==========
+Number of unique grouped by (page_id, ad_id): 246745
+
+--- Group: ('f9c94b5b33738f4952a2d9389ff38d67d25890d0fe706d00fd478810974a2026', 'b57990d60040fc0a17911c8ea0a4e75b39925e773235be3b503e830dd11f9876') ---
+Number of records: 1
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 1.0        ┆ 1.0        ┆ 1.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+│ mean       ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ null       ┆ null       ┆ null       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ min        ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 7500.0     ┆ 499.0      ┆ 49.0       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('ec8ac6dc1cddc49972de2c31b62343fe3979729ec437c3b8d6ffa8915ab1401d', '9e6b4535d17342211499788f3dfeacf490742d96da859e671a643d763e8bacdc') ---
+Number of records: 1
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 1.0        ┆ 1.0        ┆ 1.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+│ mean       ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ null       ┆ null       ┆ null       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ min        ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 1.000001e6 ┆ 17499.0    ┆ 349.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+
+--- Group: ('589d26d1aa54c116e27fde86d0a04b78d53a926d3a4662aea5e0f5397a2c70e3', '1738697dc20f6a6bbd4114e58cb1e969020e219deac589f700a5d103cf25afaa') ---
+Number of records: 1
+Numeric columns summary:
+shape: (9, 182)
+┌────────────┬────────────┬────────────┬────────────┬───┬───────────┬───────────┬───────────┬───────────┐
+│ statistic  ┆ estimated_ ┆ estimated_ ┆ estimated_ ┆ … ┆ demograph ┆ demograph ┆ demograph ┆ demograph │
+│ ---        ┆ audience_s ┆ impression ┆ spend      ┆   ┆ ic_distri ┆ ic_distri ┆ ic_distri ┆ ic_distri │
+│ str        ┆ ize        ┆ s          ┆ ---        ┆   ┆ bution_un ┆ bution_un ┆ bution_ma ┆ bution_ma │
+│            ┆ ---        ┆ ---        ┆ f64        ┆   ┆ kno…      ┆ kno…      ┆ le_…      ┆ le_…      │
+│            ┆ f64        ┆ f64        ┆            ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---       │
+│            ┆            ┆            ┆            ┆   ┆ f64       ┆ f64       ┆ f64       ┆ f64       │
+╞════════════╪════════════╪════════════╪════════════╪═══╪═══════════╪═══════════╪═══════════╪═══════════╡
+│ count      ┆ 1.0        ┆ 1.0        ┆ 1.0        ┆ … ┆ 0.0       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ null_count ┆ 0.0        ┆ 0.0        ┆ 0.0        ┆ … ┆ 1.0       ┆ 1.0       ┆ 1.0       ┆ 1.0       │
+│ mean       ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ std        ┆ null       ┆ null       ┆ null       ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ min        ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 25%        ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 50%        ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ 75%        ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+│ max        ┆ 7500.0     ┆ 2499.0     ┆ 249.0      ┆ … ┆ null      ┆ null      ┆ null      ┆ null      │
+└────────────┴────────────┴────────────┴────────────┴───┴───────────┴───────────┴───────────┴───────────┘
+
+String columns summary:
+  (No non-null string columns in this group)
+

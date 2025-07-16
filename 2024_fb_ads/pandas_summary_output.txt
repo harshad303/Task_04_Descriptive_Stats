@@ -1,0 +1,278 @@
+Loading dataset...
+Dataset loaded successfully. Shape: (246745, 41)
+Columns: ['page_id', 'ad_id', 'ad_creation_time', 'bylines', 'currency', 'delivery_by_region', 'demographic_distribution', 'estimated_audience_size', 'estimated_impressions', 'estimated_spend', 'publisher_platforms', 'illuminating_scored_message', 'illuminating_mentions', 'scam_illuminating', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+Unpacking JSON columns...
+Processing delivery_by_region...
+Processing demographic_distribution...
+JSON unpacking complete. New shape: (246745, 189)
+
+========== OVERALL DATASET SUMMARY ==========
+Dataset shape: (246745, 189)
+Total rows: 246745
+Total columns: 189
+
+Numeric columns (181): ['estimated_audience_size', 'estimated_impressions', 'estimated_spend', 'scam_illuminating', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'freefair_illuminating', 'fraud_illuminating', 'delivery_by_region_Texas_spend', 'delivery_by_region_Texas_impressions', 'delivery_by_region_Minnesota_spend', 'delivery_by_region_Minnesota_impressions', 'delivery_by_region_Florida_spend', 'delivery_by_region_Florida_impressions', 'delivery_by_region_Arizona_spend', 'delivery_by_region_Arizona_impressions', 'delivery_by_region_Georgia_spend', 'delivery_by_region_Georgia_impressions', 'delivery_by_region_Michigan_spend', 'delivery_by_region_Michigan_impressions', 'delivery_by_region_Nevada_spend', 'delivery_by_region_Nevada_impressions', 'delivery_by_region_Ohio_spend', 'delivery_by_region_Ohio_impressions', 'delivery_by_region_Pennsylvania_spend', 'delivery_by_region_Pennsylvania_impressions', 'delivery_by_region_Wisconsin_spend', 'delivery_by_region_Wisconsin_impressions', 'delivery_by_region_Alabama_spend', 'delivery_by_region_Alabama_impressions', 'delivery_by_region_Rhode Island_spend', 'delivery_by_region_Rhode Island_impressions', 'delivery_by_region_New Hampshire_spend', 'delivery_by_region_New Hampshire_impressions', 'delivery_by_region_New Jersey_spend', 'delivery_by_region_New Jersey_impressions', 'delivery_by_region_New Mexico_spend', 'delivery_by_region_New Mexico_impressions', 'delivery_by_region_New York_spend', 'delivery_by_region_New York_impressions', 'delivery_by_region_North Carolina_spend', 'delivery_by_region_North Carolina_impressions', 'delivery_by_region_North Dakota_spend', 'delivery_by_region_North Dakota_impressions', 'delivery_by_region_Oklahoma_spend', 'delivery_by_region_Oklahoma_impressions', 'delivery_by_region_Oregon_spend', 'delivery_by_region_Oregon_impressions', 'delivery_by_region_South Carolina_spend', 'delivery_by_region_South Carolina_impressions', 'delivery_by_region_Nebraska_spend', 'delivery_by_region_Nebraska_impressions', 'delivery_by_region_South Dakota_spend', 'delivery_by_region_South Dakota_impressions', 'delivery_by_region_Tennessee_spend', 'delivery_by_region_Tennessee_impressions', 'delivery_by_region_Utah_spend', 'delivery_by_region_Utah_impressions', 'delivery_by_region_Vermont_spend', 'delivery_by_region_Vermont_impressions', 'delivery_by_region_Virginia_spend', 'delivery_by_region_Virginia_impressions', 'delivery_by_region_Washington_spend', 'delivery_by_region_Washington_impressions', 'delivery_by_region_Washington, District of Columbia_spend', 'delivery_by_region_Washington, District of Columbia_impressions', 'delivery_by_region_West Virginia_spend', 'delivery_by_region_West Virginia_impressions', 'delivery_by_region_Montana_spend', 'delivery_by_region_Montana_impressions', 'delivery_by_region_Alaska_spend', 'delivery_by_region_Alaska_impressions', 'delivery_by_region_Illinois_spend', 'delivery_by_region_Illinois_impressions', 'delivery_by_region_Arkansas_spend', 'delivery_by_region_Arkansas_impressions', 'delivery_by_region_California_spend', 'delivery_by_region_California_impressions', 'delivery_by_region_Colorado_spend', 'delivery_by_region_Colorado_impressions', 'delivery_by_region_Connecticut_spend', 'delivery_by_region_Connecticut_impressions', 'delivery_by_region_Delaware_spend', 'delivery_by_region_Delaware_impressions', 'delivery_by_region_Hawaii_spend', 'delivery_by_region_Hawaii_impressions', 'delivery_by_region_Idaho_spend', 'delivery_by_region_Idaho_impressions', 'delivery_by_region_Indiana_spend', 'delivery_by_region_Indiana_impressions', 'delivery_by_region_Missouri_spend', 'delivery_by_region_Missouri_impressions', 'delivery_by_region_Iowa_spend', 'delivery_by_region_Iowa_impressions', 'delivery_by_region_Kansas_spend', 'delivery_by_region_Kansas_impressions', 'delivery_by_region_Kentucky_spend', 'delivery_by_region_Kentucky_impressions', 'delivery_by_region_Louisiana_spend', 'delivery_by_region_Louisiana_impressions', 'delivery_by_region_Maine_spend', 'delivery_by_region_Maine_impressions', 'delivery_by_region_Maryland_spend', 'delivery_by_region_Maryland_impressions', 'delivery_by_region_Massachusetts_spend', 'delivery_by_region_Massachusetts_impressions', 'delivery_by_region_Mississippi_spend', 'delivery_by_region_Mississippi_impressions', 'delivery_by_region_Wyoming_spend', 'delivery_by_region_Wyoming_impressions', 'demographic_distribution_female_18-24_spend', 'demographic_distribution_female_18-24_impressions', 'demographic_distribution_male_45-54_spend', 'demographic_distribution_male_45-54_impressions', 'demographic_distribution_male_65+_spend', 'demographic_distribution_male_65+_impressions', 'demographic_distribution_female_65+_spend', 'demographic_distribution_female_65+_impressions', 'demographic_distribution_unknown_55-64_spend', 'demographic_distribution_unknown_55-64_impressions', 'demographic_distribution_male_55-64_spend', 'demographic_distribution_male_55-64_impressions', 'demographic_distribution_female_55-64_spend', 'demographic_distribution_female_55-64_impressions', 'demographic_distribution_unknown_45-54_spend', 'demographic_distribution_unknown_45-54_impressions', 'demographic_distribution_female_45-54_spend', 'demographic_distribution_female_45-54_impressions', 'demographic_distribution_male_18-24_spend', 'demographic_distribution_male_18-24_impressions', 'demographic_distribution_unknown_35-44_spend', 'demographic_distribution_unknown_35-44_impressions', 'demographic_distribution_male_35-44_spend', 'demographic_distribution_male_35-44_impressions', 'demographic_distribution_female_35-44_spend', 'demographic_distribution_female_35-44_impressions', 'demographic_distribution_unknown_25-34_spend', 'demographic_distribution_unknown_25-34_impressions', 'demographic_distribution_male_25-34_spend', 'demographic_distribution_male_25-34_impressions', 'demographic_distribution_female_25-34_spend', 'demographic_distribution_female_25-34_impressions', 'demographic_distribution_unknown_18-24_spend', 'demographic_distribution_unknown_18-24_impressions', 'demographic_distribution_unknown_65+_spend', 'demographic_distribution_unknown_65+_impressions', 'demographic_distribution_unknown_Unknown_spend', 'demographic_distribution_unknown_Unknown_impressions', 'demographic_distribution_female_Unknown_spend', 'demographic_distribution_female_Unknown_impressions', 'demographic_distribution_female_13-17_spend', 'demographic_distribution_female_13-17_impressions', 'demographic_distribution_male_13-17_spend', 'demographic_distribution_male_13-17_impressions', 'demographic_distribution_unknown_13-17_spend', 'demographic_distribution_unknown_13-17_impressions', 'demographic_distribution_male_Unknown_spend', 'demographic_distribution_male_Unknown_impressions']
+Object columns (8): ['page_id', 'ad_id', 'ad_creation_time', 'bylines', 'currency', 'publisher_platforms', 'illuminating_scored_message', 'illuminating_mentions']
+
+--- NUMERIC COLUMNS DESCRIPTIVE STATISTICS ---
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count             2.467450e+05  ...                                           3.000000
+mean              5.564629e+05  ...                                           1.333333
+std               4.098648e+05  ...                                           0.577350
+min               0.000000e+00  ...                                           1.000000
+25%               7.500000e+04  ...                                           1.000000
+50%               3.000000e+05  ...                                           1.000000
+75%               1.000001e+06  ...                                           1.500000
+max               1.000001e+06  ...                                           2.000000
+
+[8 rows x 181 columns]
+
+--- OBJECT COLUMNS DESCRIPTIVE STATISTICS ---
+Column: ad_creation_time
+  Non-null count: 246745
+  Unique values: 547
+  Most frequent: '2024-10-27' (appears 8619 times)
+
+Column: ad_id
+  Non-null count: 246745
+  Unique values: 246745
+  Most frequent: '0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc' (appears 1 times)
+
+Column: bylines
+  Non-null count: 245736
+  Unique values: 3790
+  Most frequent: 'HARRIS FOR PRESIDENT' (appears 49788 times)
+
+Column: currency
+  Non-null count: 246745
+  Unique values: 18
+  Most frequent: 'USD' (appears 246599 times)
+
+Column: illuminating_mentions
+  Non-null count: 246745
+  Unique values: 278
+  Most frequent: '[]' (appears 73205 times)
+
+Column: illuminating_scored_message
+  Non-null count: 246745
+  Unique values: 26338
+  Most frequent: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' (appears 5972 times)
+
+Column: page_id
+  Non-null count: 246745
+  Unique values: 4475
+  Most frequent: '4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d' (appears 55503 times)
+
+Column: publisher_platforms
+  Non-null count: 246745
+  Unique values: 9
+  Most frequent: '['facebook', 'instagram']' (appears 214434 times)
+
+========== GROUPED BY page_id ==========
+Number of unique page_ids: 4475
+
+--- Page ID: 0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128 ---
+Number of ads: 2
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                 2.000000  ...                                                0.0
+mean               5250.000000  ...                                                NaN
+std                3181.980515  ...                                                NaN
+min                3000.000000  ...                                                NaN
+25%                4125.000000  ...                                                NaN
+50%                5250.000000  ...                                                NaN
+75%                6375.000000  ...                                                NaN
+max                7500.000000  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 2 unique values, most frequent: '2024-10-28' (1 times)
+  ad_id: 2 unique values, most frequent: '5ae5f50e059148a06b00ef785636346997d35ee843d2900fe795e60bc39a535f' (1 times)
+  bylines: 1 unique values, most frequent: 'David Blount for State Senate' (2 times)
+  currency: 1 unique values, most frequent: 'USD' (2 times)
+  illuminating_mentions: 1 unique values, most frequent: '['Kamala Harris', 'Tim Walz']' (2 times)
+  illuminating_scored_message: 2 unique values, most frequent: 'f81ed9f610a05a97f7887203d71991e1f1b154e8019ea608ade1843e78886942' (1 times)
+  page_id: 1 unique values, most frequent: '0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128' (2 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (2 times)
+
+--- Page ID: 00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8 ---
+Number of ads: 3
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                 3.000000  ...                                                0.0
+mean              12683.333333  ...                                                NaN
+std               15394.019401  ...                                                NaN
+min                 550.000000  ...                                                NaN
+25%                4025.000000  ...                                                NaN
+50%                7500.000000  ...                                                NaN
+75%               18750.000000  ...                                                NaN
+max               30000.000000  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 3 unique values, most frequent: '2024-07-29' (1 times)
+  ad_id: 3 unique values, most frequent: '715ec14d254bf4e5b576e257e96f77967ef5c27604238eb4eac34d2f8467a10c' (1 times)
+  bylines: 1 unique values, most frequent: 'Teran for Congress' (3 times)
+  currency: 1 unique values, most frequent: 'USD' (3 times)
+  illuminating_mentions: 1 unique values, most frequent: '['Kamala Harris']' (3 times)
+  illuminating_scored_message: 1 unique values, most frequent: 'cf232dfa44a39fc1360cb02a3699c4be4e4be3ca7a131f96e0bd1c22f29f7333' (3 times)
+  page_id: 1 unique values, most frequent: '00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8' (3 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (3 times)
+
+--- Page ID: 002415d34a27e69e6b9c0a2d1b0b8b99aacddf88c766ce1e8b897f69cbd3c928 ---
+Number of ads: 1
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      1.0  ...                                                0.0
+mean                  300000.0  ...                                                NaN
+std                        NaN  ...                                                NaN
+min                   300000.0  ...                                                NaN
+25%                   300000.0  ...                                                NaN
+50%                   300000.0  ...                                                NaN
+75%                   300000.0  ...                                                NaN
+max                   300000.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 1 unique values, most frequent: '2024-03-10' (1 times)
+  ad_id: 1 unique values, most frequent: '6001578eecf31f7e5ca33146ecede00c7b10d26a824028f8a70675a537b6fc5a' (1 times)
+  bylines: 1 unique values, most frequent: 'Dr. Rick Tsai for congress' (1 times)
+  currency: 1 unique values, most frequent: 'USD' (1 times)
+  illuminating_mentions: 1 unique values, most frequent: '['President Biden']' (1 times)
+  illuminating_scored_message: 1 unique values, most frequent: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' (1 times)
+  page_id: 1 unique values, most frequent: '002415d34a27e69e6b9c0a2d1b0b8b99aacddf88c766ce1e8b897f69cbd3c928' (1 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (1 times)
+
+--- Page ID: 002a7fde0f1b2e9116e80f42d7dfea04ccdd61308dc5cc84b53d4262fcc9a2f2 ---
+Number of ads: 4
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      4.0  ...                                                0.0
+mean                 1000001.0  ...                                                NaN
+std                        0.0  ...                                                NaN
+min                  1000001.0  ...                                                NaN
+25%                  1000001.0  ...                                                NaN
+50%                  1000001.0  ...                                                NaN
+75%                  1000001.0  ...                                                NaN
+max                  1000001.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 4 unique values, most frequent: '2024-10-04' (1 times)
+  ad_id: 4 unique values, most frequent: 'cfad8965e38dfe53ce0d2587ad98b297b368994933e38afdfdc0d172516aa9bb' (1 times)
+  bylines: 1 unique values, most frequent: 'National Immigration Law Center' (4 times)
+  currency: 1 unique values, most frequent: 'USD' (4 times)
+  illuminating_mentions: 2 unique values, most frequent: '['Joe Biden']' (2 times)
+  illuminating_scored_message: 4 unique values, most frequent: '32aa4d11ca14044c060a633bc713d43f9654842b7509ea4ccc1d94bf4564eaaf' (1 times)
+  page_id: 1 unique values, most frequent: '002a7fde0f1b2e9116e80f42d7dfea04ccdd61308dc5cc84b53d4262fcc9a2f2' (4 times)
+  publisher_platforms: 3 unique values, most frequent: '['facebook']' (2 times)
+
+--- Page ID: 003acdd6c226d5c2fa272e55ad9a8d39a82e2b6c2ed504b599c923bc33b29b68 ---
+Number of ads: 1
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      1.0  ...                                                0.0
+mean                 1000001.0  ...                                                NaN
+std                        NaN  ...                                                NaN
+min                  1000001.0  ...                                                NaN
+25%                  1000001.0  ...                                                NaN
+50%                  1000001.0  ...                                                NaN
+75%                  1000001.0  ...                                                NaN
+max                  1000001.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 1 unique values, most frequent: '2024-09-11' (1 times)
+  ad_id: 1 unique values, most frequent: '56dcf4e58b861519ef0c50f8b4d6f1b938c2d29a55d96dc11822e8c9c222b371' (1 times)
+  currency: 1 unique values, most frequent: 'USD' (1 times)
+  illuminating_mentions: 1 unique values, most frequent: '['President Trump']' (1 times)
+  illuminating_scored_message: 1 unique values, most frequent: '8469d06d719737625a5d97080e8f0dd7e05a5df3e35bcdfb5ab6ad6707374295' (1 times)
+  page_id: 1 unique values, most frequent: '003acdd6c226d5c2fa272e55ad9a8d39a82e2b6c2ed504b599c923bc33b29b68' (1 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram', 'messenger']' (1 times)
+
+... and 4470 more groups
+========== GROUPED BY (page_id, ad_id) ==========
+Number of unique (page_id, ad_id) combinations: 246745
+
+--- Page ID: 0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128, Ad ID: 10913e6cae50d9aafe81b85c23f4ad11e24bde5d4f24643c14734a19a2733e5e ---
+Number of records: 1
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      1.0  ...                                                0.0
+mean                    7500.0  ...                                                NaN
+std                        NaN  ...                                                NaN
+min                     7500.0  ...                                                NaN
+25%                     7500.0  ...                                                NaN
+50%                     7500.0  ...                                                NaN
+75%                     7500.0  ...                                                NaN
+max                     7500.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 1 unique values, most frequent: '2024-08-23' (1 times)
+  ad_id: 1 unique values, most frequent: '10913e6cae50d9aafe81b85c23f4ad11e24bde5d4f24643c14734a19a2733e5e' (1 times)
+  bylines: 1 unique values, most frequent: 'David Blount for State Senate' (1 times)
+  currency: 1 unique values, most frequent: 'USD' (1 times)
+  illuminating_mentions: 1 unique values, most frequent: '['Kamala Harris', 'Tim Walz']' (1 times)
+  illuminating_scored_message: 1 unique values, most frequent: 'e687fcbb87055998bcc18f749ffefc9b46d11defd8ef35d2b0e9ff3b603e22ec' (1 times)
+  page_id: 1 unique values, most frequent: '0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128' (1 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (1 times)
+
+--- Page ID: 0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128, Ad ID: 5ae5f50e059148a06b00ef785636346997d35ee843d2900fe795e60bc39a535f ---
+Number of records: 1
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      1.0  ...                                                0.0
+mean                    3000.0  ...                                                NaN
+std                        NaN  ...                                                NaN
+min                     3000.0  ...                                                NaN
+25%                     3000.0  ...                                                NaN
+50%                     3000.0  ...                                                NaN
+75%                     3000.0  ...                                                NaN
+max                     3000.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 1 unique values, most frequent: '2024-10-28' (1 times)
+  ad_id: 1 unique values, most frequent: '5ae5f50e059148a06b00ef785636346997d35ee843d2900fe795e60bc39a535f' (1 times)
+  bylines: 1 unique values, most frequent: 'David Blount for State Senate' (1 times)
+  currency: 1 unique values, most frequent: 'USD' (1 times)
+  illuminating_mentions: 1 unique values, most frequent: '['Kamala Harris', 'Tim Walz']' (1 times)
+  illuminating_scored_message: 1 unique values, most frequent: 'f81ed9f610a05a97f7887203d71991e1f1b154e8019ea608ade1843e78886942' (1 times)
+  page_id: 1 unique values, most frequent: '0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128' (1 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (1 times)
+
+--- Page ID: 00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8, Ad ID: 715ec14d254bf4e5b576e257e96f77967ef5c27604238eb4eac34d2f8467a10c ---
+Number of records: 1
+Numeric columns summary:
+       estimated_audience_size  ...  demographic_distribution_male_Unknown_impressions
+count                      1.0  ...                                                0.0
+mean                   30000.0  ...                                                NaN
+std                        NaN  ...                                                NaN
+min                    30000.0  ...                                                NaN
+25%                    30000.0  ...                                                NaN
+50%                    30000.0  ...                                                NaN
+75%                    30000.0  ...                                                NaN
+max                    30000.0  ...                                                NaN
+
+[8 rows x 181 columns]
+
+Object columns summary:
+  ad_creation_time: 1 unique values, most frequent: '2024-07-29' (1 times)
+  ad_id: 1 unique values, most frequent: '715ec14d254bf4e5b576e257e96f77967ef5c27604238eb4eac34d2f8467a10c' (1 times)
+  bylines: 1 unique values, most frequent: 'Teran for Congress' (1 times)
+  currency: 1 unique values, most frequent: 'USD' (1 times)
+  illuminating_mentions: 1 unique values, most frequent: '['Kamala Harris']' (1 times)
+  illuminating_scored_message: 1 unique values, most frequent: 'cf232dfa44a39fc1360cb02a3699c4be4e4be3ca7a131f96e0bd1c22f29f7333' (1 times)
+  page_id: 1 unique values, most frequent: '00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8' (1 times)
+  publisher_platforms: 1 unique values, most frequent: '['facebook', 'instagram']' (1 times)
+
+... and 246742 more groups

@@ -1,0 +1,3460 @@
+
+========== OVERALL DATASET SUMMARY ==========
+
+--- Column: ad_creation_time ---
+Count: 246745
+Unique Values: 547
+Most Frequent: 2024-10-27 (8619 times)
+
+--- Column: ad_id ---
+Count: 246745
+Unique Values: 246745
+Most Frequent: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 246745
+Mean: 0.55
+Min: 0.0
+Max: 1.0
+Std Dev: 0.50
+
+--- Column: attack_msg_type_illuminating ---
+Count: 246745
+Mean: 0.27
+Min: 0.0
+Max: 1.0
+Std Dev: 0.44
+
+--- Column: bylines ---
+Count: 245736
+Unique Values: 3786
+Most Frequent: HARRIS FOR PRESIDENT (49788 times)
+
+--- Column: covid_topic_illuminating ---
+Count: 246745
+Mean: 0.02
+Min: 0.0
+Max: 1.0
+Std Dev: 0.16
+
+--- Column: cta_msg_type_illuminating ---
+Count: 246745
+Mean: 0.57
+Min: 0.0
+Max: 1.0
+Std Dev: 0.49
+
+--- Column: currency ---
+Count: 246745
+Unique Values: 18
+Most Frequent: USD (246599 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 112132
+Mean: 3427.08
+Min: 0.0
+Max: 1000000.0
+Std Dev: 17261.08
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 112132
+Mean: 89.10
+Min: 0.0
+Max: 162489.0
+Std Dev: 679.98
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 171101
+Mean: 3611.49
+Min: 0.0
+Max: 557419.0
+Std Dev: 17296.68
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 171101
+Mean: 58.11
+Min: 0.0
+Max: 24090.0
+Std Dev: 333.88
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 194891
+Mean: 5565.75
+Min: 0.0
+Max: 673639.0
+Std Dev: 21824.91
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 194891
+Mean: 105.67
+Min: 0.0
+Max: 48779.0
+Std Dev: 551.11
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 196516
+Mean: 5479.52
+Min: 0.0
+Max: 414699.0
+Std Dev: 19499.19
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 196516
+Mean: 123.39
+Min: 0.0
+Max: 29898.0
+Std Dev: 604.87
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 204423
+Mean: 4413.38
+Min: 0.0
+Max: 511804.0
+Std Dev: 14442.88
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 204423
+Mean: 113.54
+Min: 0.0
+Max: 33965.0
+Std Dev: 561.59
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 198293
+Mean: 5253.77
+Min: 0.0
+Max: 420417.0
+Std Dev: 16598.72
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 198293
+Mean: 146.58
+Min: 0.0
+Max: 58347.0
+Std Dev: 751.50
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 196563
+Mean: 7594.02
+Min: 0.0
+Max: 1000000.0
+Std Dev: 25877.49
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 196563
+Mean: 223.88
+Min: 0.0
+Max: 77273.0
+Std Dev: 1216.71
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 172141
+Mean: 2549.61
+Min: 0.0
+Max: 1000000.0
+Std Dev: 12932.93
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 172141
+Mean: 39.72
+Min: 0.0
+Max: 37499.0
+Std Dev: 245.67
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 194166
+Mean: 4765.71
+Min: 0.0
+Max: 669448.0
+Std Dev: 18221.02
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 194166
+Mean: 83.97
+Min: 0.0
+Max: 29322.0
+Std Dev: 399.37
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 194863
+Mean: 4587.94
+Min: 0.0
+Max: 421497.0
+Std Dev: 15727.41
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 194863
+Mean: 94.38
+Min: 0.0
+Max: 24768.0
+Std Dev: 442.62
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 201472
+Mean: 3873.87
+Min: 0.0
+Max: 309781.0
+Std Dev: 12622.30
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 201472
+Mean: 86.62
+Min: 0.0
+Max: 54502.0
+Std Dev: 445.29
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 195316
+Mean: 4422.92
+Min: 0.0
+Max: 392316.0
+Std Dev: 15072.33
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 195316
+Mean: 104.32
+Min: 0.0
+Max: 98558.0
+Std Dev: 600.39
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 193479
+Mean: 5244.24
+Min: 0.0
+Max: 749999.0
+Std Dev: 18914.98
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 193479
+Mean: 135.28
+Min: 0.0
+Max: 112121.0
+Std Dev: 780.29
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 113365
+Mean: 143.29
+Min: 0.0
+Max: 44671.0
+Std Dev: 634.09
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 113365
+Mean: 2.14
+Min: 0.0
+Max: 1145.0
+Std Dev: 12.34
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 144758
+Mean: 120.42
+Min: 0.0
+Max: 31039.0
+Std Dev: 414.16
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 144758
+Mean: 2.21
+Min: 0.0
+Max: 583.0
+Std Dev: 11.66
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 152867
+Mean: 121.08
+Min: 0.0
+Max: 8676.0
+Std Dev: 359.17
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 152867
+Mean: 2.69
+Min: 0.0
+Max: 889.0
+Std Dev: 13.97
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 159396
+Mean: 84.75
+Min: 0.0
+Max: 7398.0
+Std Dev: 239.23
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 159396
+Mean: 2.03
+Min: 0.0
+Max: 853.0
+Std Dev: 11.52
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 160479
+Mean: 89.94
+Min: 0.0
+Max: 4667.0
+Std Dev: 267.52
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 160479
+Mean: 2.38
+Min: 0.0
+Max: 1447.0
+Std Dev: 14.49
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 166103
+Mean: 128.65
+Min: 0.0
+Max: 10228.0
+Std Dev: 426.00
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 166103
+Mean: 3.75
+Min: 0.0
+Max: 1752.0
+Std Dev: 23.59
+
+--- Column: economy_topic_illuminating ---
+Count: 246745
+Mean: 0.12
+Min: 0.0
+Max: 1.0
+Std Dev: 0.33
+
+--- Column: education_topic_illuminating ---
+Count: 246745
+Mean: 0.01
+Min: 0.0
+Max: 1.0
+Std Dev: 0.12
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 246745
+Mean: 0.05
+Min: 0.0
+Max: 1.0
+Std Dev: 0.22
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 246745
+Mean: 0.12
+Min: 0.0
+Max: 1.0
+Std Dev: 0.33
+
+--- Column: environment_topic_illuminating ---
+Count: 246745
+Mean: 0.02
+Min: 0.0
+Max: 1.0
+Std Dev: 0.14
+
+--- Column: estimated_audience_size ---
+Count: 246745
+Mean: 556462.86
+Min: 0.0
+Max: 1000001.0
+Std Dev: 409864.76
+
+--- Column: estimated_impressions ---
+Count: 246745
+Mean: 45601.53
+Min: 499.0
+Max: 1000000.0
+Std Dev: 136790.77
+
+--- Column: estimated_spend ---
+Count: 246745
+Mean: 1061.29
+Min: 49.0
+Max: 474999.0
+Std Dev: 4992.56
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 246745
+Mean: 0.01
+Min: 0.0
+Max: 1.0
+Std Dev: 0.07
+
+--- Column: fraud_illuminating ---
+Count: 246745
+Mean: 0.00
+Min: 0.0
+Max: 1.0
+Std Dev: 0.05
+
+--- Column: freefair_illuminating ---
+Count: 246745
+Mean: 0.01
+Min: 0.0
+Max: 1.0
+Std Dev: 0.08
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 246745
+Mean: 0.23
+Min: 0.0
+Max: 1.0
+Std Dev: 0.42
+
+--- Column: governance_topic_illuminating ---
+Count: 246745
+Mean: 0.03
+Min: 0.0
+Max: 1.0
+Std Dev: 0.16
+
+--- Column: health_topic_illuminating ---
+Count: 246745
+Mean: 0.11
+Min: 0.0
+Max: 1.0
+Std Dev: 0.31
+
+--- Column: illuminating_mentions ---
+Count: 246745
+Unique Values: 278
+Most Frequent: [] (73205 times)
+
+--- Column: illuminating_scored_message ---
+Count: 246745
+Unique Values: 26338
+Most Frequent: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 (5972 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 246745
+Mean: 0.22
+Min: 0.0
+Max: 1.0
+Std Dev: 0.42
+
+--- Column: immigration_topic_illuminating ---
+Count: 246745
+Mean: 0.03
+Min: 0.0
+Max: 1.0
+Std Dev: 0.18
+
+--- Column: incivility_illuminating ---
+Count: 246745
+Mean: 0.19
+Min: 0.0
+Max: 1.0
+Std Dev: 0.39
+
+--- Column: issue_msg_type_illuminating ---
+Count: 246745
+Mean: 0.38
+Min: 0.0
+Max: 1.0
+Std Dev: 0.49
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 246745
+Mean: 0.00
+Min: 0.0
+Max: 1.0
+Std Dev: 0.06
+
+--- Column: military_topic_illuminating ---
+Count: 246745
+Mean: 0.00
+Min: 0.0
+Max: 1.0
+Std Dev: 0.05
+
+--- Column: page_id ---
+Count: 246745
+Unique Values: 4475
+Most Frequent: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d (55503 times)
+
+--- Column: publisher_platforms ---
+Count: 246745
+Unique Values: 9
+Most Frequent: ['facebook', 'instagram'] (214434 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 246745
+Mean: 0.01
+Min: 0.0
+Max: 1.0
+Std Dev: 0.11
+
+--- Column: safety_topic_illuminating ---
+Count: 246745
+Mean: 0.03
+Min: 0.0
+Max: 1.0
+Std Dev: 0.18
+
+--- Column: scam_illuminating ---
+Count: 246745
+Mean: 0.07
+Min: 0.0
+Max: 1.0
+Std Dev: 0.26
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 246745
+Mean: 0.11
+Min: 0.0
+Max: 1.0
+Std Dev: 0.31
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 246745
+Mean: 0.00
+Min: 0.0
+Max: 1.0
+Std Dev: 0.03
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 246745
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.35
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 246745
+Mean: 0.08
+Min: 0.0
+Max: 1.0
+Std Dev: 0.27
+
+========== GROUPED BY ['page_id'] ==========
+
+--- Group: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230',) ---
+
+--- Column: ad_creation_time ---
+Count: 33
+Unique Values: 5
+Most Frequent: 2024-10-13 (13 times)
+
+--- Column: ad_id ---
+Count: 33
+Unique Values: 33
+Most Frequent: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 33
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+Std Dev: 0.00
+
+--- Column: attack_msg_type_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: bylines ---
+Count: 33
+Unique Values: 1
+Most Frequent: Texas Organizing Project PAC (33 times)
+
+--- Column: covid_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: cta_msg_type_illuminating ---
+Count: 33
+Mean: 0.42
+Min: 0.0
+Max: 1.0
+Std Dev: 0.50
+
+--- Column: currency ---
+Count: 33
+Unique Values: 1
+Most Frequent: USD (33 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 30
+Mean: 73548.37
+Min: 499.0
+Max: 374988.0
+Std Dev: 98974.43
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 30
+Mean: 508.93
+Min: 49.0
+Max: 2249.0
+Std Dev: 681.96
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 30
+Mean: 7556.23
+Min: 46.0
+Max: 36275.0
+Std Dev: 9796.49
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 30
+Mean: 50.50
+Min: 4.0
+Max: 217.0
+Std Dev: 65.11
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 30
+Mean: 13049.33
+Min: 74.0
+Max: 66974.0
+Std Dev: 17695.99
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 30
+Mean: 89.30
+Min: 7.0
+Max: 401.0
+Std Dev: 119.63
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 30
+Mean: 8810.40
+Min: 46.0
+Max: 44766.0
+Std Dev: 11932.15
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 30
+Mean: 61.23
+Min: 3.0
+Max: 282.0
+Std Dev: 83.75
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 30
+Mean: 5474.17
+Min: 24.0
+Max: 29347.0
+Std Dev: 7678.10
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 30
+Mean: 38.57
+Min: 1.0
+Max: 195.0
+Std Dev: 55.82
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 30
+Mean: 2906.73
+Min: 12.0
+Max: 15429.0
+Std Dev: 4050.18
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 30
+Mean: 20.37
+Min: 0.0
+Max: 105.0
+Std Dev: 29.69
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 29
+Mean: 1687.72
+Min: 7.0
+Max: 8810.0
+Std Dev: 2376.92
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 29
+Mean: 11.76
+Min: 0.0
+Max: 65.0
+Std Dev: 17.79
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 30
+Mean: 5666.37
+Min: 17.0
+Max: 27751.0
+Std Dev: 7480.27
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 30
+Mean: 37.70
+Min: 1.0
+Max: 166.0
+Std Dev: 49.28
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 30
+Mean: 11385.77
+Min: 70.0
+Max: 57110.0
+Std Dev: 15110.14
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 30
+Mean: 77.27
+Min: 6.0
+Max: 342.0
+Std Dev: 101.32
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 30
+Mean: 7743.50
+Min: 32.0
+Max: 39371.0
+Std Dev: 10452.40
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 30
+Mean: 52.83
+Min: 3.0
+Max: 236.0
+Std Dev: 71.52
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 30
+Mean: 4960.70
+Min: 10.0
+Max: 26261.0
+Std Dev: 6862.57
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 30
+Mean: 34.17
+Min: 0.0
+Max: 162.0
+Std Dev: 48.16
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 30
+Mean: 2549.53
+Min: 4.0
+Max: 13450.0
+Std Dev: 3539.24
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 30
+Mean: 17.53
+Min: 0.0
+Max: 90.0
+Std Dev: 25.41
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 29
+Mean: 1391.14
+Min: 2.0
+Max: 7267.0
+Std Dev: 1898.47
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 29
+Mean: 9.34
+Min: 0.0
+Max: 48.0
+Std Dev: 13.84
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 28
+Mean: 147.14
+Min: 2.0
+Max: 545.0
+Std Dev: 168.17
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 28
+Mean: 0.64
+Min: 0.0
+Max: 3.0
+Std Dev: 1.10
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 26
+Mean: 122.35
+Min: 5.0
+Max: 542.0
+Std Dev: 152.09
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 26
+Mean: 0.58
+Min: 0.0
+Max: 3.0
+Std Dev: 1.03
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 27
+Mean: 123.81
+Min: 3.0
+Max: 574.0
+Std Dev: 158.56
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 27
+Mean: 0.56
+Min: 0.0
+Max: 3.0
+Std Dev: 1.01
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 26
+Mean: 70.31
+Min: 5.0
+Max: 308.0
+Std Dev: 83.02
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 26
+Mean: 0.23
+Min: 0.0
+Max: 1.0
+Std Dev: 0.43
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 27
+Mean: 30.56
+Min: 2.0
+Max: 122.0
+Std Dev: 36.70
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 27
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 24
+Mean: 22.62
+Min: 1.0
+Max: 95.0
+Std Dev: 28.08
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 24
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: economy_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: education_topic_illuminating ---
+Count: 33
+Mean: 0.42
+Min: 0.0
+Max: 1.0
+Std Dev: 0.50
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: environment_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: estimated_audience_size ---
+Count: 33
+Mean: 43636.36
+Min: 30000.0
+Max: 75000.0
+Std Dev: 21001.22
+
+--- Column: estimated_impressions ---
+Count: 33
+Mean: 66908.09
+Min: 499.0
+Max: 374999.0
+Std Dev: 96605.55
+
+--- Column: estimated_spend ---
+Count: 33
+Mean: 467.18
+Min: 49.0
+Max: 2249.0
+Std Dev: 663.07
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fraud_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: freefair_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: governance_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: health_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: illuminating_mentions ---
+Count: 33
+Unique Values: 1
+Most Frequent: ['Kamala Harris', 'Tim Walz'] (33 times)
+
+--- Column: illuminating_scored_message ---
+Count: 33
+Unique Values: 3
+Most Frequent: dc522d5aa4f91c326d105ec4c482cf4b0c378161a6438a4c604061979c49f0dc (14 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: immigration_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: incivility_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: issue_msg_type_illuminating ---
+Count: 33
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+Std Dev: 0.00
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: military_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: page_id ---
+Count: 33
+Unique Values: 1
+Most Frequent: 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 (33 times)
+
+--- Column: publisher_platforms ---
+Count: 33
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram'] (33 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: safety_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: scam_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 33
+Mean: 0.42
+Min: 0.0
+Max: 1.0
+Std Dev: 0.50
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 33
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Group: ('b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be',) ---
+
+--- Column: ad_creation_time ---
+Count: 3
+Unique Values: 2
+Most Frequent: 2024-11-02 (2 times)
+
+--- Column: ad_id ---
+Count: 3
+Unique Values: 3
+Most Frequent: c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2962ad48 (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 3
+Mean: 0.33
+Min: 0.0
+Max: 1.0
+Std Dev: 0.58
+
+--- Column: attack_msg_type_illuminating ---
+Count: 3
+Mean: 0.67
+Min: 0.0
+Max: 1.0
+Std Dev: 0.58
+
+--- Column: bylines ---
+Count: 0
+Unique Values: 0
+
+--- Column: covid_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: cta_msg_type_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: currency ---
+Count: 3
+Unique Values: 1
+Most Frequent: USD (3 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 1
+Mean: 32.00
+Min: 32.0
+Max: 32.0
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 1
+Mean: 46.00
+Min: 46.0
+Max: 46.0
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 1
+Mean: 263.00
+Min: 263.0
+Max: 263.0
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 1
+Mean: 1596.00
+Min: 1596.0
+Max: 1596.0
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 1
+Mean: 5.00
+Min: 5.0
+Max: 5.0
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 1
+Mean: 4698.00
+Min: 4698.0
+Max: 4698.0
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 1
+Mean: 14.00
+Min: 14.0
+Max: 14.0
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 1
+Mean: 7276.00
+Min: 7276.0
+Max: 7276.0
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 1
+Mean: 22.00
+Min: 22.0
+Max: 22.0
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 1
+Mean: 163.00
+Min: 163.0
+Max: 163.0
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 1
+Mean: 329.00
+Min: 329.0
+Max: 329.0
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 1
+Mean: 1253.00
+Min: 1253.0
+Max: 1253.0
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 1
+Mean: 4877.00
+Min: 4877.0
+Max: 4877.0
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 1
+Mean: 15.00
+Min: 15.0
+Max: 15.0
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 1
+Mean: 12064.00
+Min: 12064.0
+Max: 12064.0
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 1
+Mean: 37.00
+Min: 37.0
+Max: 37.0
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 1
+Mean: 14530.00
+Min: 14530.0
+Max: 14530.0
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 1
+Mean: 45.00
+Min: 45.0
+Max: 45.0
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 1
+Mean: 5.00
+Min: 5.0
+Max: 5.0
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 1
+Mean: 10.00
+Min: 10.0
+Max: 10.0
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 1
+Mean: 46.00
+Min: 46.0
+Max: 46.0
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 1
+Mean: 116.00
+Min: 116.0
+Max: 116.0
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 1
+Mean: 187.00
+Min: 187.0
+Max: 187.0
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: economy_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: education_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: environment_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: estimated_audience_size ---
+Count: 3
+Mean: 1000001.00
+Min: 1000001.0
+Max: 1000001.0
+Std Dev: 0.00
+
+--- Column: estimated_impressions ---
+Count: 3
+Mean: 16165.67
+Min: 499.0
+Max: 47499.0
+Std Dev: 27135.46
+
+--- Column: estimated_spend ---
+Count: 3
+Mean: 82.33
+Min: 49.0
+Max: 149.0
+Std Dev: 57.74
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fraud_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: freefair_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: governance_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: health_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: illuminating_mentions ---
+Count: 3
+Unique Values: 1
+Most Frequent: ['Tim Walz'] (3 times)
+
+--- Column: illuminating_scored_message ---
+Count: 3
+Unique Values: 3
+Most Frequent: 5ffb1d89916e779d01193e726cd8802b1952507da292bcf2c575cd9cc7b44cdb (1 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 3
+Mean: 0.33
+Min: 0.0
+Max: 1.0
+Std Dev: 0.58
+
+--- Column: immigration_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: incivility_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: issue_msg_type_illuminating ---
+Count: 3
+Mean: 0.67
+Min: 0.0
+Max: 1.0
+Std Dev: 0.58
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: military_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: page_id ---
+Count: 3
+Unique Values: 1
+Most Frequent: b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be (3 times)
+
+--- Column: publisher_platforms ---
+Count: 3
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram', 'audience_network', 'messenger'] (3 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: safety_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: scam_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Group: ('7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909',) ---
+
+--- Column: ad_creation_time ---
+Count: 7
+Unique Values: 6
+Most Frequent: 2024-11-02 (2 times)
+
+--- Column: ad_id ---
+Count: 7
+Unique Values: 7
+Most Frequent: 8eef0db915699b38fa798d4d9f5d944b1fed68bb08cce48b287ede96c336db21 (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 7
+Mean: 0.29
+Min: 0.0
+Max: 1.0
+Std Dev: 0.49
+
+--- Column: attack_msg_type_illuminating ---
+Count: 7
+Mean: 0.43
+Min: 0.0
+Max: 1.0
+Std Dev: 0.53
+
+--- Column: bylines ---
+Count: 0
+Unique Values: 0
+
+--- Column: covid_topic_illuminating ---
+Count: 7
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.38
+
+--- Column: cta_msg_type_illuminating ---
+Count: 7
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.38
+
+--- Column: currency ---
+Count: 7
+Unique Values: 1
+Most Frequent: USD (7 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 4
+Mean: 4.75
+Min: 4.0
+Max: 6.0
+Std Dev: 0.96
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 4
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 4
+Mean: 6.25
+Min: 4.0
+Max: 9.0
+Std Dev: 2.63
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 4
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 4
+Mean: 5.75
+Min: 4.0
+Max: 9.0
+Std Dev: 2.36
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 4
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 6
+Mean: 25.33
+Min: 8.0
+Max: 53.0
+Std Dev: 16.16
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 6
+Mean: 1.33
+Min: 0.0
+Max: 3.0
+Std Dev: 1.03
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 6
+Mean: 71.83
+Min: 30.0
+Max: 185.0
+Std Dev: 57.37
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 6
+Mean: 4.67
+Min: 3.0
+Max: 6.0
+Std Dev: 1.37
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 6
+Mean: 208.33
+Min: 100.0
+Max: 467.0
+Std Dev: 139.15
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 6
+Mean: 15.00
+Min: 9.0
+Max: 26.0
+Std Dev: 5.83
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 3
+Mean: 4.67
+Min: 4.0
+Max: 6.0
+Std Dev: 1.15
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 5
+Mean: 7.20
+Min: 4.0
+Max: 12.0
+Std Dev: 3.63
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 5
+Mean: 0.20
+Min: 0.0
+Max: 1.0
+Std Dev: 0.45
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 5
+Mean: 24.60
+Min: 13.0
+Max: 36.0
+Std Dev: 10.36
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 5
+Mean: 1.60
+Min: 1.0
+Max: 3.0
+Std Dev: 0.89
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 6
+Mean: 36.33
+Min: 14.0
+Max: 83.0
+Std Dev: 25.12
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 6
+Mean: 2.33
+Min: 1.0
+Max: 4.0
+Std Dev: 1.03
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 6
+Mean: 84.83
+Min: 42.0
+Max: 189.0
+Std Dev: 55.49
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 6
+Mean: 5.83
+Min: 4.0
+Max: 10.0
+Std Dev: 2.23
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 6
+Mean: 189.50
+Min: 80.0
+Max: 441.0
+Std Dev: 127.71
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 6
+Mean: 13.17
+Min: 7.0
+Max: 17.0
+Std Dev: 3.43
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 1
+Mean: 4.00
+Min: 4.0
+Max: 4.0
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 1
+Mean: 4.00
+Min: 4.0
+Max: 4.0
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 3
+Mean: 4.33
+Min: 2.0
+Max: 7.0
+Std Dev: 2.52
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 3
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: economy_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: education_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 7
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.38
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 7
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.38
+
+--- Column: environment_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: estimated_audience_size ---
+Count: 7
+Mean: 1000001.00
+Min: 1000001.0
+Max: 1000001.0
+Std Dev: 0.00
+
+--- Column: estimated_impressions ---
+Count: 7
+Mean: 641.86
+Min: 499.0
+Max: 1499.0
+Std Dev: 377.96
+
+--- Column: estimated_spend ---
+Count: 7
+Mean: 49.00
+Min: 49.0
+Max: 49.0
+Std Dev: 0.00
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fraud_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: freefair_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: governance_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: health_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: illuminating_mentions ---
+Count: 7
+Unique Values: 1
+Most Frequent: ['Tim Walz'] (7 times)
+
+--- Column: illuminating_scored_message ---
+Count: 7
+Unique Values: 7
+Most Frequent: 5ffb1d89916e779d01193e726cd8802b1952507da292bcf2c575cd9cc7b44cdb (1 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 7
+Mean: 0.43
+Min: 0.0
+Max: 1.0
+Std Dev: 0.53
+
+--- Column: immigration_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: incivility_illuminating ---
+Count: 7
+Mean: 0.14
+Min: 0.0
+Max: 1.0
+Std Dev: 0.38
+
+--- Column: issue_msg_type_illuminating ---
+Count: 7
+Mean: 0.29
+Min: 0.0
+Max: 1.0
+Std Dev: 0.49
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: military_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: page_id ---
+Count: 7
+Unique Values: 1
+Most Frequent: 7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909 (7 times)
+
+--- Column: publisher_platforms ---
+Count: 7
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram', 'audience_network'] (7 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: safety_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: scam_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 7
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+Std Dev: 0.00
+
+========== GROUPED BY ['page_id', 'ad_id'] ==========
+
+--- Group: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', '0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc') ---
+
+--- Column: ad_creation_time ---
+Count: 1
+Unique Values: 1
+Most Frequent: 2024-10-21 (1 times)
+
+--- Column: ad_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: attack_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: bylines ---
+Count: 1
+Unique Values: 1
+Most Frequent: Texas Organizing Project PAC (1 times)
+
+--- Column: covid_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: cta_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: currency ---
+Count: 1
+Unique Values: 1
+Most Frequent: USD (1 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 1
+Mean: 47499.00
+Min: 47499.0
+Max: 47499.0
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 1
+Mean: 249.00
+Min: 249.0
+Max: 249.0
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 1
+Mean: 5507.00
+Min: 5507.0
+Max: 5507.0
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 1
+Mean: 28.00
+Min: 28.0
+Max: 28.0
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 1
+Mean: 8920.00
+Min: 8920.0
+Max: 8920.0
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 1
+Mean: 46.00
+Min: 46.0
+Max: 46.0
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 1
+Mean: 5528.00
+Min: 5528.0
+Max: 5528.0
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 1
+Mean: 28.00
+Min: 28.0
+Max: 28.0
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 1
+Mean: 2735.00
+Min: 2735.0
+Max: 2735.0
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 1
+Mean: 14.00
+Min: 14.0
+Max: 14.0
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 1
+Mean: 1520.00
+Min: 1520.0
+Max: 1520.0
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 1
+Mean: 7.00
+Min: 7.0
+Max: 7.0
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 1
+Mean: 725.00
+Min: 725.0
+Max: 725.0
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 1
+Mean: 4055.00
+Min: 4055.0
+Max: 4055.0
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 1
+Mean: 21.00
+Min: 21.0
+Max: 21.0
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 1
+Mean: 7976.00
+Min: 7976.0
+Max: 7976.0
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 1
+Mean: 41.00
+Min: 41.0
+Max: 41.0
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 1
+Mean: 5149.00
+Min: 5149.0
+Max: 5149.0
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 1
+Mean: 26.00
+Min: 26.0
+Max: 26.0
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 1
+Mean: 2757.00
+Min: 2757.0
+Max: 2757.0
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 1
+Mean: 14.00
+Min: 14.0
+Max: 14.0
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 1
+Mean: 1502.00
+Min: 1502.0
+Max: 1502.0
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 1
+Mean: 7.00
+Min: 7.0
+Max: 7.0
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 1
+Mean: 714.00
+Min: 714.0
+Max: 714.0
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 1
+Mean: 171.00
+Min: 171.0
+Max: 171.0
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 1
+Mean: 91.00
+Min: 91.0
+Max: 91.0
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 1
+Mean: 69.00
+Min: 69.0
+Max: 69.0
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 1
+Mean: 40.00
+Min: 40.0
+Max: 40.0
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 1
+Mean: 21.00
+Min: 21.0
+Max: 21.0
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 1
+Mean: 10.00
+Min: 10.0
+Max: 10.0
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: economy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: education_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: environment_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: estimated_audience_size ---
+Count: 1
+Mean: 30000.00
+Min: 30000.0
+Max: 30000.0
+
+--- Column: estimated_impressions ---
+Count: 1
+Mean: 47499.00
+Min: 47499.0
+Max: 47499.0
+
+--- Column: estimated_spend ---
+Count: 1
+Mean: 249.00
+Min: 249.0
+Max: 249.0
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fraud_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: freefair_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: governance_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: health_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: illuminating_mentions ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['Kamala Harris', 'Tim Walz'] (1 times)
+
+--- Column: illuminating_scored_message ---
+Count: 1
+Unique Values: 1
+Most Frequent: 362d68d42e34e070bc9f999033642b8fddfca5404195fc27690c60e0acde1d5b (1 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: immigration_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: incivility_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: issue_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: military_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: page_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 (1 times)
+
+--- Column: publisher_platforms ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram'] (1 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: safety_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: scam_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Group: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', '86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6') ---
+
+--- Column: ad_creation_time ---
+Count: 1
+Unique Values: 1
+Most Frequent: 2024-10-18 (1 times)
+
+--- Column: ad_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6 (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: attack_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: bylines ---
+Count: 1
+Unique Values: 1
+Most Frequent: Texas Organizing Project PAC (1 times)
+
+--- Column: covid_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: cta_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: currency ---
+Count: 1
+Unique Values: 1
+Most Frequent: USD (1 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 1
+Mean: 22499.00
+Min: 22499.0
+Max: 22499.0
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 1
+Mean: 49.00
+Min: 49.0
+Max: 49.0
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 1
+Mean: 3904.00
+Min: 3904.0
+Max: 3904.0
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 1
+Mean: 8.00
+Min: 8.0
+Max: 8.0
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 1
+Mean: 3744.00
+Min: 3744.0
+Max: 3744.0
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 1
+Mean: 8.00
+Min: 8.0
+Max: 8.0
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 1
+Mean: 1726.00
+Min: 1726.0
+Max: 1726.0
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 1
+Mean: 856.00
+Min: 856.0
+Max: 856.0
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 1
+Mean: 456.00
+Min: 456.0
+Max: 456.0
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 1
+Mean: 251.00
+Min: 251.0
+Max: 251.0
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 1
+Mean: 2922.00
+Min: 2922.0
+Max: 2922.0
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 1
+Mean: 6.00
+Min: 6.0
+Max: 6.0
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 1
+Mean: 4323.00
+Min: 4323.0
+Max: 4323.0
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 1
+Mean: 9.00
+Min: 9.0
+Max: 9.0
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 1
+Mean: 2145.00
+Min: 2145.0
+Max: 2145.0
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 1
+Mean: 4.00
+Min: 4.0
+Max: 4.0
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 1
+Mean: 1129.00
+Min: 1129.0
+Max: 1129.0
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 1
+Mean: 2.00
+Min: 2.0
+Max: 2.0
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 1
+Mean: 602.00
+Min: 602.0
+Max: 602.0
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 1
+Mean: 299.00
+Min: 299.0
+Max: 299.0
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 1
+Mean: 53.00
+Min: 53.0
+Max: 53.0
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 1
+Mean: 31.00
+Min: 31.0
+Max: 31.0
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 1
+Mean: 23.00
+Min: 23.0
+Max: 23.0
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 1
+Mean: 15.00
+Min: 15.0
+Max: 15.0
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 1
+Mean: 5.00
+Min: 5.0
+Max: 5.0
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 1
+Mean: 5.00
+Min: 5.0
+Max: 5.0
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: economy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: education_topic_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: environment_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: estimated_audience_size ---
+Count: 1
+Mean: 75000.00
+Min: 75000.0
+Max: 75000.0
+
+--- Column: estimated_impressions ---
+Count: 1
+Mean: 22499.00
+Min: 22499.0
+Max: 22499.0
+
+--- Column: estimated_spend ---
+Count: 1
+Mean: 49.00
+Min: 49.0
+Max: 49.0
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fraud_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: freefair_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: governance_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: health_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: illuminating_mentions ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['Kamala Harris', 'Tim Walz'] (1 times)
+
+--- Column: illuminating_scored_message ---
+Count: 1
+Unique Values: 1
+Most Frequent: dc522d5aa4f91c326d105ec4c482cf4b0c378161a6438a4c604061979c49f0dc (1 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: immigration_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: incivility_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: issue_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: military_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: page_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 (1 times)
+
+--- Column: publisher_platforms ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram'] (1 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: safety_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: scam_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Group: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', '07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d') ---
+
+--- Column: ad_creation_time ---
+Count: 1
+Unique Values: 1
+Most Frequent: 2024-10-13 (1 times)
+
+--- Column: ad_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d (1 times)
+
+--- Column: advocacy_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: attack_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: bylines ---
+Count: 1
+Unique Values: 1
+Most Frequent: Texas Organizing Project PAC (1 times)
+
+--- Column: covid_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: cta_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: currency ---
+Count: 1
+Unique Values: 1
+Most Frequent: USD (1 times)
+
+--- Column: delivery_by_region ---
+Count: 0
+Unique Values: 0
+
+--- Column: delivery_by_region_Texas_impressions ---
+Count: 1
+Mean: 32499.00
+Min: 32499.0
+Max: 32499.0
+
+--- Column: delivery_by_region_Texas_spend ---
+Count: 1
+Mean: 149.00
+Min: 149.0
+Max: 149.0
+
+--- Column: demographic_distribution ---
+Count: 0
+Unique Values: 0
+
+--- Column: demographic_distribution_female_18-24_impressions ---
+Count: 1
+Mean: 5791.00
+Min: 5791.0
+Max: 5791.0
+
+--- Column: demographic_distribution_female_18-24_spend ---
+Count: 1
+Mean: 26.00
+Min: 26.0
+Max: 26.0
+
+--- Column: demographic_distribution_female_25-34_impressions ---
+Count: 1
+Mean: 5750.00
+Min: 5750.0
+Max: 5750.0
+
+--- Column: demographic_distribution_female_25-34_spend ---
+Count: 1
+Mean: 26.00
+Min: 26.0
+Max: 26.0
+
+--- Column: demographic_distribution_female_35-44_impressions ---
+Count: 1
+Mean: 2531.00
+Min: 2531.0
+Max: 2531.0
+
+--- Column: demographic_distribution_female_35-44_spend ---
+Count: 1
+Mean: 11.00
+Min: 11.0
+Max: 11.0
+
+--- Column: demographic_distribution_female_45-54_impressions ---
+Count: 1
+Mean: 1191.00
+Min: 1191.0
+Max: 1191.0
+
+--- Column: demographic_distribution_female_45-54_spend ---
+Count: 1
+Mean: 5.00
+Min: 5.0
+Max: 5.0
+
+--- Column: demographic_distribution_female_55-64_impressions ---
+Count: 1
+Mean: 578.00
+Min: 578.0
+Max: 578.0
+
+--- Column: demographic_distribution_female_55-64_spend ---
+Count: 1
+Mean: 2.00
+Min: 2.0
+Max: 2.0
+
+--- Column: demographic_distribution_female_65+_impressions ---
+Count: 1
+Mean: 298.00
+Min: 298.0
+Max: 298.0
+
+--- Column: demographic_distribution_female_65+_spend ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_male_18-24_impressions ---
+Count: 1
+Mean: 4285.00
+Min: 4285.0
+Max: 4285.0
+
+--- Column: demographic_distribution_male_18-24_spend ---
+Count: 1
+Mean: 19.00
+Min: 19.0
+Max: 19.0
+
+--- Column: demographic_distribution_male_25-34_impressions ---
+Count: 1
+Mean: 6189.00
+Min: 6189.0
+Max: 6189.0
+
+--- Column: demographic_distribution_male_25-34_spend ---
+Count: 1
+Mean: 28.00
+Min: 28.0
+Max: 28.0
+
+--- Column: demographic_distribution_male_35-44_impressions ---
+Count: 1
+Mean: 2954.00
+Min: 2954.0
+Max: 2954.0
+
+--- Column: demographic_distribution_male_35-44_spend ---
+Count: 1
+Mean: 13.00
+Min: 13.0
+Max: 13.0
+
+--- Column: demographic_distribution_male_45-54_impressions ---
+Count: 1
+Mean: 1573.00
+Min: 1573.0
+Max: 1573.0
+
+--- Column: demographic_distribution_male_45-54_spend ---
+Count: 1
+Mean: 7.00
+Min: 7.0
+Max: 7.0
+
+--- Column: demographic_distribution_male_55-64_impressions ---
+Count: 1
+Mean: 790.00
+Min: 790.0
+Max: 790.0
+
+--- Column: demographic_distribution_male_55-64_spend ---
+Count: 1
+Mean: 3.00
+Min: 3.0
+Max: 3.0
+
+--- Column: demographic_distribution_male_65+_impressions ---
+Count: 1
+Mean: 370.00
+Min: 370.0
+Max: 370.0
+
+--- Column: demographic_distribution_male_65+_spend ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: demographic_distribution_unknown_18-24_impressions ---
+Count: 1
+Mean: 87.00
+Min: 87.0
+Max: 87.0
+
+--- Column: demographic_distribution_unknown_18-24_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_25-34_impressions ---
+Count: 1
+Mean: 37.00
+Min: 37.0
+Max: 37.0
+
+--- Column: demographic_distribution_unknown_25-34_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_35-44_impressions ---
+Count: 1
+Mean: 27.00
+Min: 27.0
+Max: 27.0
+
+--- Column: demographic_distribution_unknown_35-44_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_45-54_impressions ---
+Count: 1
+Mean: 21.00
+Min: 21.0
+Max: 21.0
+
+--- Column: demographic_distribution_unknown_45-54_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_55-64_impressions ---
+Count: 1
+Mean: 9.00
+Min: 9.0
+Max: 9.0
+
+--- Column: demographic_distribution_unknown_55-64_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: demographic_distribution_unknown_65+_impressions ---
+Count: 1
+Mean: 9.00
+Min: 9.0
+Max: 9.0
+
+--- Column: demographic_distribution_unknown_65+_spend ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: economy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: education_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: election_integrity_Truth_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: engagement_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: environment_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: estimated_audience_size ---
+Count: 1
+Mean: 75000.00
+Min: 75000.0
+Max: 75000.0
+
+--- Column: estimated_impressions ---
+Count: 1
+Mean: 32499.00
+Min: 32499.0
+Max: 32499.0
+
+--- Column: estimated_spend ---
+Count: 1
+Mean: 149.00
+Min: 149.0
+Max: 149.0
+
+--- Column: foreign_policy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fraud_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: freefair_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: fundraising_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: governance_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: health_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: illuminating_mentions ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['Kamala Harris', 'Tim Walz'] (1 times)
+
+--- Column: illuminating_scored_message ---
+Count: 1
+Unique Values: 1
+Most Frequent: 6dc61896f4a44cf4fdbe564604bbebe33b84d2dbfb8bacc761b345b2879f0804 (1 times)
+
+--- Column: image_msg_type_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: immigration_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: incivility_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: issue_msg_type_illuminating ---
+Count: 1
+Mean: 1.00
+Min: 1.0
+Max: 1.0
+
+--- Column: lgbtq_issues_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: military_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: page_id ---
+Count: 1
+Unique Values: 1
+Most Frequent: 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 (1 times)
+
+--- Column: publisher_platforms ---
+Count: 1
+Unique Values: 1
+Most Frequent: ['facebook', 'instagram'] (1 times)
+
+--- Column: race_and_ethnicity_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: safety_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: scam_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: social_and_cultural_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: technology_and_privacy_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: voting_cta_subtype_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0
+
+--- Column: womens_issue_topic_illuminating ---
+Count: 1
+Mean: 0.00
+Min: 0.0
+Max: 0.0

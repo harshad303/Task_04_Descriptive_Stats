@@ -1,0 +1,9 @@
+# Core dependencies for descriptive statistics analysis
+
+pandas>=1.5.0      # DataFrame operations and analysis (Pandas approach)
+polars>=0.20.0      # High-performance DataFrame library (Polars approach)
+numpy>=1.21.0       # Numerical operations, used by both Pandas and Polars
+matplotlib>=3.5.0   # Visualization library (for potential plots)
+seaborn>=0.11.0     # Statistical data visualization (works with matplotlib)
+
+# All packages are compatible with Python 3.8+ 
