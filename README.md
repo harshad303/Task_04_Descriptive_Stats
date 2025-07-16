@@ -105,19 +105,27 @@ TASK_04_DESCRIPTIVE_STATS/
 
 ---
 
-## Key Findings (Twitter Dataset)
+## Key Findings
 
-- **Descriptive Statistics:**
-  - Numeric columns (e.g., retweetCount, likeCount) show high variance and skew, typical of social media engagement data.
-  - Categorical columns (e.g., source, lang) reveal a small number of dominant values.
-- **Performance:**
-  - Polars is significantly faster for loading and basic stats, but less stable for complex groupby operations (as of v0.20+).
-  - Pandas offers the best balance of speed, stability, and ecosystem support.
-  - Pure Python is robust but not recommended for large-scale analysis due to speed.
+### Summary of Findings Across All Three Datasets
+
+**Pure Python**: Most verbose and error-prone, but gives full control over statistical logic. Required manual implementation of groupby operations and data type handling. Recommended only for educational purposes or highly constrained environments where dependencies aren't available.
+
+**Pandas**: Easiest to use and most expressive for both descriptive statistics and complex grouping operations. Excellent documentation and error messages. Ideal for rapid prototyping, data exploration, and most production analytics workflows.
+
+**Polars**: Fastest loading and most memory-efficient across all dataset sizes, especially noticeable with larger Facebook datasets. However, required debugging due to evolving API (map_dict deprecation). Best for production pipelines and big data scenarios.
+
+### Cross-Dataset Insights
+
+- Twitter posts showed highest engagement variance
+- Facebook ads demonstrated different statistical distributions  
+- Facebook posts revealed [add your specific findings]
+
+Polars consistently outperformed on raw speed, while Pandas offered the best balance of ease-of-use and analytical power. Pure Python implementation revealed how much computational abstraction modern libraries provide.
 
 ---
 
-## Recommendations for Junior Data Analysts
+## Recommendations 
 
 - **Use Pandas** for most data analysis tasks: it is fast, well-documented, and widely supported.
 - **Try Polars** for very large datasets or when performance is critical, but be prepared for API changes and evolving documentation.
