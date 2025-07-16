@@ -115,12 +115,6 @@ TASK_04_DESCRIPTIVE_STATS/
 
 **Polars**: Fastest loading and most memory-efficient across all dataset sizes, especially noticeable with larger Facebook datasets. However, required debugging due to evolving API (map_dict deprecation). Best for production pipelines and big data scenarios.
 
-### Cross-Dataset Insights
-
-- Twitter posts showed highest engagement variance
-- Facebook ads demonstrated different statistical distributions  
-- Facebook posts revealed [add your specific findings]
-
 Polars consistently outperformed on raw speed, while Pandas offered the best balance of ease-of-use and analytical power. Pure Python implementation revealed how much computational abstraction modern libraries provide.
 
 ---
